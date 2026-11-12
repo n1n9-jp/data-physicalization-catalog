@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>データ物質化 事例カタログ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@600;700&display=swap" rel="stylesheet">
+<style>
+/* layout: one reading column of tools — distribution chart, cross-tab, facet chips, then the case list */
+:root{
+  --bg:#f4f5f3; --surface:#fcfcfb; --ink:#141a1c; --ink-2:#4b5557; --ink-3:#77807f;
+  --line:#dcdfdb; --accent:#1f5fae; --series:#2a78d6; --on-series:#ffffff; --mark:#b4530a;
+  --font-display:"Zen Old Mincho","Hiragino Mincho ProN","Yu Mincho",serif;
+  --font-body:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#131615; --surface:#1a1d1c; --ink:#eef0ec; --ink-2:#bcc3bf; --ink-3:#8b9390;
+    --line:#2f3533; --accent:#7fb2f0; --series:#3987e5; --on-series:#ffffff; --mark:#f0a35c;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#131615; --surface:#1a1d1c; --ink:#eef0ec; --ink-2:#bcc3bf; --ink-3:#8b9390;
+  --line:#2f3533; --accent:#7fb2f0; --series:#3987e5; --on-series:#ffffff; --mark:#f0a35c;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:15px;line-height:1.7}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1120px;margin:0 auto;padding:28px 20px 64px;display:flex;flex-direction:column;gap:28px}
+header h1{font-family:var(--font-display);font-size:clamp(26px,4vw,38px);line-height:1.25;margin:0 0 10px;text-wrap:balance;letter-spacing:.01em}
+header p{margin:0;max-width:40em;color:var(--ink-2)}
+.facts{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:14px;font-size:13px;color:var(--ink-2)}
+.facts b{font-size:20px;color:var(--ink);font-variant-numeric:tabular-nums;margin-right:4px}
+section{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px}
+h2{font-family:var(--font-display);font-size:20px;margin:0 0 4px;text-wrap:balance}
+.lead{margin:0 0 14px;color:var(--ink-2);font-size:13.5px;max-width:46em}
+.note{margin:12px 0 0;color:var(--ink-3);font-size:12.5px;max-width:52em}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+button.chip,button.seg{font:inherit;font-size:13px;line-height:1.3;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:5px 11px;cursor:pointer}
+button.chip:hover,button.seg:hover{border-color:var(--ink-3)}
+button.chip[aria-pressed="true"],button.seg[aria-pressed="true"]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+button.chip .n{color:var(--ink-3);font-variant-numeric:tabular-nums;margin-left:6px;font-size:12px}
+button.chip[aria-pressed="true"] .n{color:inherit;opacity:.75}
+button.chip.zero{opacity:.45}
+button.link{font:inherit;font-size:13px;background:none;border:0;color:var(--accent);cursor:pointer;padding:4px 2px;text-decoration:underline;text-underline-offset:3px}
+.chartbox{position:relative;overflow-x:auto}
+svg text{font-family:var(--font-body);fill:var(--ink-2);font-size:11px}
+svg .grid{stroke:var(--line);stroke-width:1}
+svg .bar{fill:var(--series);cursor:pointer}
+svg .bar.dim{opacity:.28}
+svg .hit{fill:transparent;cursor:pointer}
+svg .ref{stroke:var(--mark);stroke-width:1.5;stroke-dasharray:3 3}
+svg .reft{fill:var(--mark);font-size:11px;font-weight:700}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--surface);font-size:12px;padding:4px 8px;border-radius:6px;white-space:nowrap;transform:translate(-50%,-130%);display:none;font-variant-numeric:tabular-nums}
+.split{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:14px}
+.stat{border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.stat .k{font-size:12px;color:var(--ink-3)}
+.stat .v{font-size:22px;font-weight:700;font-variant-numeric:tabular-nums}
+.stat .s{font-size:12px;color:var(--ink-2)}
+.xt-controls{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;margin-bottom:12px;font-size:13px}
+select,input[type=search]{font:inherit;font-size:13px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:6px 8px}
+input[type=search]{min-width:min(280px,100%);flex:1}
+.xt{overflow-x:auto}
+table.heat{border-collapse:separate;border-spacing:2px;font-size:12px;font-variant-numeric:tabular-nums}
+table.heat th{font-weight:500;color:var(--ink-2);text-align:left;padding:3px 6px;white-space:nowrap}
+table.heat thead th{vertical-align:bottom;text-align:center;max-width:76px;white-space:normal;line-height:1.25}
+table.heat td{padding:0}
+table.heat td button{font:inherit;width:100%;min-width:42px;height:28px;border:0;border-radius:4px;cursor:pointer;color:var(--ink)}
+table.heat td button.hi{color:var(--on-series)}
+table.heat td button:disabled{cursor:default;color:var(--ink-3)}
+.facet{display:grid;grid-template-columns:8.5em 1fr;gap:6px 12px;align-items:start;padding:8px 0;border-top:1px solid var(--line)}
+.facet:first-of-type{border-top:0}
+.facet h3{font-size:13px;margin:5px 0 0;font-weight:700}
+.toolbar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;margin-bottom:10px}
+label.chk{display:inline-flex;gap:6px;align-items:center;font-size:13px;cursor:pointer}
+.count{font-size:14px;margin:0}
+.count b{font-size:22px;font-variant-numeric:tabular-nums}
+.list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-top:14px}
+article{border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;background:var(--surface)}
+article .yr{font-size:12px;color:var(--ink-3);font-variant-numeric:tabular-nums;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+article h4{margin:0;font-size:15px;line-height:1.4;overflow-wrap:anywhere}
+article .by{font-size:12.5px;color:var(--ink-2);overflow-wrap:anywhere}
+article p{margin:0;font-size:13.5px;line-height:1.65}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:2px}
+.tag{font-size:11.5px;border:1px solid var(--line);border-radius:4px;padding:0 6px;color:var(--ink-2);line-height:1.7}
+.tag.use{border-color:var(--ink-3);color:var(--ink)}
+.badge{font-size:11px;border-radius:4px;padding:0 6px;line-height:1.7;border:1px solid var(--mark);color:var(--mark)}
+article a{font-size:12.5px;margin-top:auto;align-self:flex-start}
+.defs{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px 28px;font-size:13px}
+.defs h3{font-size:13.5px;margin:0 0 4px}
+.defs p,.defs ul{margin:0;color:var(--ink-2)}
+.defs ul{padding-left:1.2em}
+.defs li{margin:2px 0;overflow-wrap:anywhere}
+@media (max-width:560px){.facet{grid-template-columns:1fr}.facet h3{margin:0}section{padding:16px 14px}}
+@media (prefers-reduced-motion:no-preference){svg .bar{transition:opacity .15s}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>データ物質化 事例カタログ</h1>
+  <p>データを物の形・素材・動きに置き換えた事例を、年代・素材・感覚・データの種類・用途で絞り込める一覧です。先史時代のタリーから2025年の作品まで収めています。</p>
+  <div class="facts" id="facts"></div>
+</header>
+
+<section aria-labelledby="h-era">
+  <h2 id="h-era">年代の分布</h2>
+  <p class="lead">1990年以降は1年ごとの件数です。棒を押すとその年に、下のボタンを押すと期間に絞り込みます。下の絞り込みを変えると、この図も追従します。</p>
+  <div class="row" id="eraBtns" role="group" aria-label="期間で絞り込む"></div>
+  <div class="chartbox" id="chartbox"><div class="tip" id="tip"></div></div>
+  <div class="split" id="split"></div>
+  <p class="note">件数は、もとにした一覧の収集のされ方を映しています。投稿や追記が多かった時期ほど件数が増えるため、「その年に作られた数」そのものではありません。古い時代は現存し記録された物だけが載る点にも注意が必要です。</p>
+</section>
+
+<section aria-labelledby="h-xt">
+  <h2 id="h-xt">軸の組み合わせ</h2>
+  <p class="lead">2つの軸を選ぶと、組み合わせごとの件数が出ます。濃いほど多い組み合わせです。マスを押すとその組み合わせに絞り込みます。</p>
+  <div class="xt-controls">
+    <label for="xtA">行 <select id="xtA"></select></label>
+    <label for="xtB">列 <select id="xtB"></select></label>
+  </div>
+  <div class="xt" id="xt"></div>
+  <p class="note">素材と感覚は1つの事例に複数付くので、行や列の合計は事例数より多くなります。</p>
+</section>
+
+<section aria-labelledby="h-list">
+  <h2 id="h-list">事例を絞り込む</h2>
+  <p class="lead">同じ軸の中は「いずれか」、軸どうしは「すべて」で絞り込みます。チップの数字は、押した場合に残る件数です。</p>
+  <div class="toolbar">
+    <input type="search" id="q" placeholder="名前・作者・説明で探す" aria-label="名前・作者・説明で探す">
+    <label class="chk" for="fJ"><input type="checkbox" id="fJ"> 日本に関わる事例のみ</label>
+    <label class="chk" for="fX"><input type="checkbox" id="fX"> データを伴わない関連技術も含める</label>
+    <button class="link" id="reset" type="button">絞り込みをすべて解除</button>
+  </div>
+  <div id="facets"></div>
+  <div class="toolbar" style="margin-top:14px;justify-content:space-between">
+    <p class="count" id="count" aria-live="polite"></p>
+    <label for="sort">並び順 <select id="sort"><option value="asc">古い順</option><option value="desc">新しい順</option></select></label>
+  </div>
+  <div class="list" id="list"></div>
+</section>
+
+<section aria-labelledby="h-defs">
+  <h2 id="h-defs">分類の定義と出典</h2>
+  <div class="defs">
+    <div>
+      <h3>何を事例としたか</h3>
+      <p>Jansen ら（2015）の定義にならい、形や素材の性質にデータを写した物を対象にしました。データを伴わない立体ディスプレイや計算の仕掛けは「関連技術」として分け、初期状態では集計から外しています。</p>
+    </div>
+    <div>
+      <h3>分類は試案です</h3>
+      <p>素材・感覚・データの種類・用途・動きの5軸は、このカタログのために付けた分類です。各事例の公開情報から1件ずつ判断しましたが、作者の意図と違う場合があります。授業や研究で使う際は元の出典で確かめてください。</p>
+    </div>
+    <div>
+      <h3>感覚の付け方</h3>
+      <p>視覚は見て読むもの、触覚は手に取る・触れることが想定されたもの、身体は歩く・並ぶ・着るなど体ごと関わるものに付けました。</p>
+    </div>
+    <div>
+      <h3>事例の出典</h3>
+      <ul>
+        <li><a href="https://dataphys.org/list/gallery">List of Physical Visualizations and Related Artifacts</a>（Pierre Dragicevic, Yvonne Jansen 編）。__NLIST__件はこの一覧に基づき、各カードから該当ページに飛べます。</li>
+        <li>「追加」の印がある__NADD__件は、この一覧にない事例を一次情報から加えたものです。出典は各カードのリンク先です。</li>
+        <li>説明文はすべて本カタログで書き起こしました。画像は載せていません。</li>
+      </ul>
+    </div>
+    <div>
+      <h3>分類の参考にした文献</h3>
+      <ul>
+        <li>Jansen ほか (2015) <a href="https://doi.org/10.1145/2702123.2702180">Opportunities and Challenges for Data Physicalization</a>, CHI '15</li>
+        <li>Bae ほか (2022) <a href="https://arxiv.org/abs/2202.10520v1">Making Data Tangible: A Cross-disciplinary Design Space for Data Physicalization</a>, CHI '22</li>
+        <li>Hogan, Hornecker (2017) <a href="https://doi.org/10.1093/iwc/iww015">Towards a Design Space for Multisensory Data Representation</a>, Interacting with Computers</li>
+      </ul>
+    </div>
+    <div>
+      <h3>追加事例の補足資料</h3>
+      <ul>
+        <li>藁算：<a href="https://www.minpaku.ac.jp/sites/default/files/museum/showcase/bookbite/gekkan/1210_21.pdf">国立民族学博物館『月刊みんぱく』2012年10月号</a></li>
+        <li>大津浪記念碑：<a href="https://www.gsi.go.jp/bousaichiri/bousaichiri41080.html">国土地理院 自然災害伝承碑</a></li>
+        <li>時の海—東北：<a href="https://bijutsutecho.com/magazine/news/report/31917">美術手帖の報道</a></li>
+        <li>触れる地球：<a href="https://www2.jpgu.org/meeting/2003/pdf/j035/j035-026.pdf">2003年の学会予稿</a></li>
+        <li>地理院地図3D：<a href="https://www.gsi.go.jp/johofukyu/johofukyu41010.html">国土地理院の案内</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+</div>
+
+<script type="application/json" id="data">__DATA__</script>
+<script>
+(function(){
+"use strict";
+var D = JSON.parse(document.getElementById('data').textContent);
+var items = D.items;
+var AX = [
+  {id:'m', name:'素材・つくり方', map:D.MAT, multi:true},
+  {id:'s', name:'感覚', map:D.MOD, multi:true},
+  {id:'k', name:'データの種類', map:D.DAT, multi:false},
+  {id:'p', name:'用途', map:D.USE, multi:false},
+  {id:'v', name:'動き', map:D.DYN, multi:false}
+];
+var ERAS = [
+  {id:'all', label:'全期間', from:-Infinity, to:Infinity},
+  {id:'a', label:'〜1799年', from:-Infinity, to:1799},
+  {id:'b', label:'1800–1899年', from:1800, to:1899},
+  {id:'c', label:'1900–1949年', from:1900, to:1949},
+  {id:'d', label:'1950–1989年', from:1950, to:1989},
+  {id:'e', label:'1990–2012年', from:1990, to:2012},
+  {id:'f', label:'2013–2025年', from:2013, to:2025}
+];
+var st = {f:{m:{},s:{},k:{},p:{},v:{}}, era:{from:-Infinity,to:Infinity,id:'all'}, q:'', jp:false, rel:false, sort:'asc', xa:'m', xb:'p'};
+function vals(e,ax){ return ax.multi ? e[ax.id] : [e[ax.id]]; }
+function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+function yearLabel(y){ if(y<0) return '紀元前'+(-y).toLocaleString('ja-JP')+'年頃'; if(y>2026) return '将来構想（'+y+'年）'; if(y<1000) return y+'年頃'; return y+'年'; }
+function hasSel(id){ for(var k in st.f[id]) if(st.f[id][k]) return true; return false; }
+function passAxis(e,ax){ if(!hasSel(ax.id)) return true; var v=vals(e,ax); for(var i=0;i<v.length;i++) if(st.f[ax.id][v[i]]) return true; return false; }
+function passBase(e){
+  if(!st.rel && e.x) return false;
+  if(st.jp && !e.j) return false;
+  if(st.q){ var h=(e.t+' '+e.c+' '+e.d).toLowerCase(); if(h.indexOf(st.q)<0) return false; }
+  return true;
+}
+function passEra(e){ return e.y>=st.era.from && e.y<=st.era.to; }
+function filtered(skipAxis, skipEra){
+  return items.filter(function(e){
+    if(!passBase(e)) return false;
+    if(!skipEra && !passEra(e)) return false;
+    for(var i=0;i<AX.length;i++){ if(AX[i].id===skipAxis) continue; if(!passAxis(e,AX[i])) return false; }
+    return true;
+  });
+}
+
+/* header facts */
+(function(){
+  var data = items.filter(function(e){return !e.x;});
+  document.getElementById('facts').innerHTML =
+    '<span><b>'+data.length+'</b>件の事例</span>'+
+    '<span><b>'+(items.length-data.length)+'</b>件の関連技術</span>'+
+    '<span><b>'+items.filter(function(e){return e.j;}).length+'</b>件が日本に関わる</span>'+
+    '<span><b>'+items.filter(function(e){return e.n;}).length+'</b>件を独自に追加</span>';
+})();
+
+/* era buttons */
+var eraBtns = document.getElementById('eraBtns');
+function renderEraBtns(){
+  var base = filtered(null,true);
+  eraBtns.innerHTML = ERAS.map(function(r){
+    var n = base.filter(function(e){return e.y>=r.from && e.y<=r.to;}).length;
+    return '<button type="button" class="seg" data-era="'+r.id+'" aria-pressed="'+(st.era.id===r.id)+'">'+r.label+'<span class="n" style="margin-left:6px;opacity:.7">'+n+'</span></button>';
+  }).join('');
+}
+eraBtns.addEventListener('click',function(ev){
+  var b = ev.target.closest('button'); if(!b) return;
+  var r = ERAS.filter(function(x){return x.id===b.dataset.era;})[0];
+  st.era = {from:r.from,to:r.to,id:r.id}; render();
+});
+
+/* yearly bar chart 1990–2025 */
+var chartbox = document.getElementById('chartbox'), tip = document.getElementById('tip');
+function renderChart(){
+  var base = filtered(null,true), Y0=1990, Y1=2025, counts={}, max=0, y;
+  for(y=Y0;y<=Y1;y++) counts[y]=0;
+  base.forEach(function(e){ if(e.y>=Y0 && e.y<=Y1) counts[e.y]++; });
+  for(y=Y0;y<=Y1;y++) if(counts[y]>max) max=counts[y];
+  var step = max>20?10:(max>8?5:(max>3?2:1)), top = Math.max(step, Math.ceil(max/step)*step);
+  var W=760,H=230,L=34,R=10,T=18,B=28, pw=W-L-R, ph=H-T-B, n=Y1-Y0+1, bw=pw/n;
+  var s='<svg viewBox="0 0 '+W+' '+H+'" width="100%" style="min-width:560px;display:block" role="img" aria-label="1990年から2025年までの年ごとの事例数">';
+  for(var g=0; g<=top; g+=step){ var gy=T+ph-(g/top)*ph; s+='<line class="grid" x1="'+L+'" x2="'+(W-R)+'" y1="'+gy+'" y2="'+gy+'"/><text x="'+(L-6)+'" y="'+(gy+4)+'" text-anchor="end">'+g+'</text>'; }
+  for(y=Y0;y<=Y1;y++){
+    var i=y-Y0, x=L+i*bw, h=(counts[y]/top)*ph, by=T+ph-h, sel=(y>=st.era.from&&y<=st.era.to);
+    if(counts[y]>0) s+='<path class="bar'+(sel?'':' dim')+'" d="M'+(x+1)+' '+(T+ph)+'V'+(by+Math.min(3,h))+'q0 -'+Math.min(3,h)+' '+Math.min(3,h)+' -'+Math.min(3,h)+'H'+(x+bw-1-Math.min(3,h))+'q'+Math.min(3,h)+' 0 '+Math.min(3,h)+' '+Math.min(3,h)+'V'+(T+ph)+'Z"/>';
+    s+='<rect class="hit" data-y="'+y+'" data-n="'+counts[y]+'" x="'+x+'" y="'+T+'" width="'+bw+'" height="'+ph+'"><title>'+y+'年 '+counts[y]+'件</title></rect>';
+    if(y%5===0) s+='<text x="'+(x+bw/2)+'" y="'+(H-10)+'" text-anchor="middle">'+y+'</text>';
+  }
+  var rx=L+(2013-Y0)*bw;
+  s+='<line class="ref" x1="'+rx+'" x2="'+rx+'" y1="'+(T-6)+'" y2="'+(T+ph)+'"/><text class="reft" x="'+(rx-5)+'" y="'+(T+4)+'" text-anchor="end">2012年まで</text><text class="reft" x="'+(rx+5)+'" y="'+(T+4)+'">2013年から</text>';
+  s+='</svg>';
+  var old = chartbox.querySelector('svg'); if(old) old.remove();
+  chartbox.insertAdjacentHTML('afterbegin', s);
+  /* before/after 2012 summary */
+  var pre=base.filter(function(e){return e.y<=2012;}), post=base.filter(function(e){return e.y>=2013&&e.y<=2025;});
+  function topOf(arr,ax){ var c={}; arr.forEach(function(e){vals(e,ax).forEach(function(v){c[v]=(c[v]||0)+1;});}); var ks=Object.keys(c).sort(function(a,b){return c[b]-c[a];}).slice(0,3); return ks.map(function(k){return ax.map[k]+' '+Math.round(100*c[k]/Math.max(1,arr.length))+'%';}).join('、'); }
+  document.getElementById('split').innerHTML = [['2012年まで',pre],['2013年から',post]].map(function(p){
+    return '<div class="stat"><div class="k">'+p[0]+'</div><div class="v">'+p[1].length+'件</div><div class="s">用途の上位：'+(topOf(p[1],AX[3])||'—')+'</div><div class="s">素材の上位：'+(topOf(p[1],AX[0])||'—')+'</div></div>';
+  }).join('');
+}
+chartbox.addEventListener('mousemove',function(ev){
+  var r = ev.target.closest && ev.target.closest('.hit'); if(!r){ tip.style.display='none'; return; }
+  var bb = chartbox.getBoundingClientRect();
+  tip.textContent = r.dataset.y+'年 '+r.dataset.n+'件';
+  tip.style.left = (ev.clientX-bb.left+chartbox.scrollLeft)+'px'; tip.style.top = (ev.clientY-bb.top)+'px'; tip.style.display='block';
+});
+chartbox.addEventListener('mouseleave',function(){ tip.style.display='none'; });
+chartbox.addEventListener('click',function(ev){
+  var r = ev.target.closest && ev.target.closest('.hit'); if(!r) return;
+  var y=+r.dataset.y;
+  if(st.era.from===y && st.era.to===y) st.era={from:-Infinity,to:Infinity,id:'all'}; else st.era={from:y,to:y,id:'y'+y};
+  render();
+});
+
+/* cross-tab */
+var selA=document.getElementById('xtA'), selB=document.getElementById('xtB');
+[selA,selB].forEach(function(sel,i){
+  sel.innerHTML = AX.map(function(a){return '<option value="'+a.id+'">'+a.name+'</option>';}).join('');
+  sel.value = i?st.xb:st.xa;
+  sel.addEventListener('change',function(){ if(i) st.xb=sel.value; else st.xa=sel.value; renderXt(); });
+});
+function axById(id){ return AX.filter(function(a){return a.id===id;})[0]; }
+function renderXt(){
+  var A=axById(st.xa), B=axById(st.xb), arr=filtered(null,false), el=document.getElementById('xt');
+  if(A.id===B.id){ el.innerHTML='<p class="note">行と列に別の軸を選んでください。</p>'; return; }
+  var m={}, max=0, rk=Object.keys(A.map), ck=Object.keys(B.map);
+  arr.forEach(function(e){ vals(e,A).forEach(function(a){ vals(e,B).forEach(function(b){ var k=a+'|'+b; m[k]=(m[k]||0)+1; if(m[k]>max) max=m[k]; }); }); });
+  rk = rk.filter(function(a){ return ck.some(function(b){return m[a+'|'+b];}); });
+  ck = ck.filter(function(b){ return rk.some(function(a){return m[a+'|'+b];}); });
+  if(!rk.length){ el.innerHTML='<p class="note">この絞り込みに当てはまる事例はありません。</p>'; return; }
+  var h='<table class="heat"><thead><tr><th></th>'+ck.map(function(b){return '<th scope="col">'+B.map[b]+'</th>';}).join('')+'</tr></thead><tbody>';
+  rk.forEach(function(a){
+    h+='<tr><th scope="row">'+A.map[a]+'</th>'+ck.map(function(b){
+      var n=m[a+'|'+b]||0, p=n?Math.round(12+88*n/max):0;
+      return '<td><button type="button" '+(n?'':'disabled ')+'data-a="'+a+'" data-b="'+b+'" class="'+(p>58?'hi':'')+'" style="background:color-mix(in oklab,var(--series) '+p+'%,var(--bg))" aria-label="'+A.map[a]+' と '+B.map[b]+'：'+n+'件">'+(n||'')+'</button></td>';
+    }).join('')+'</tr>';
+  });
+  el.innerHTML=h+'</tbody></table>';
+}
+document.getElementById('xt').addEventListener('click',function(ev){
+  var b=ev.target.closest('button'); if(!b||b.disabled) return;
+  st.f[st.xa]={}; st.f[st.xa][b.dataset.a]=true; st.f[st.xb]={}; st.f[st.xb][b.dataset.b]=true; render();
+  document.getElementById('h-list').scrollIntoView({behavior:'smooth',block:'start'});
+});
+
+/* facets */
+var facets=document.getElementById('facets');
+function renderFacets(){
+  facets.innerHTML = AX.map(function(ax){
+    var base=filtered(ax.id,false), c={};
+    base.forEach(function(e){ vals(e,ax).forEach(function(v){ c[v]=(c[v]||0)+1; }); });
+    var keys=Object.keys(ax.map).sort(function(a,b){ return (c[b]||0)-(c[a]||0); });
+    return '<div class="facet"><h3>'+ax.name+'</h3><div class="row">'+keys.map(function(k){
+      var on=!!st.f[ax.id][k], n=c[k]||0;
+      return '<button type="button" class="chip'+(n?'':' zero')+'" data-ax="'+ax.id+'" data-v="'+k+'" aria-pressed="'+on+'">'+ax.map[k]+'<span class="n">'+n+'</span></button>';
+    }).join('')+'</div></div>';
+  }).join('');
+}
+facets.addEventListener('click',function(ev){
+  var b=ev.target.closest('button.chip'); if(!b) return;
+  st.f[b.dataset.ax][b.dataset.v]=!st.f[b.dataset.ax][b.dataset.v]; render();
+});
+
+/* list */
+function renderList(){
+  var arr=filtered(null,false).slice();
+  arr.sort(function(a,b){ return st.sort==='asc' ? a.y-b.y : b.y-a.y; });
+  document.getElementById('count').innerHTML='<b>'+arr.length+'</b> 件'+(st.era.id!=='all'?'（'+(st.era.id.charAt(0)==='y'?st.era.from+'年':ERAS.filter(function(r){return r.id===st.era.id;})[0].label)+'）':'');
+  document.getElementById('list').innerHTML = arr.map(function(e){
+    var tags='<span class="tag use">'+D.USE[e.p]+'</span><span class="tag">'+D.DAT[e.k]+'</span>'+
+      e.m.map(function(m){return '<span class="tag">'+D.MAT[m]+'</span>';}).join('')+
+      e.s.map(function(m){return '<span class="tag">'+D.MOD[m].replace(/（.*）/,'')+'</span>';}).join('')+
+      '<span class="tag">'+D.DYN[e.v]+'</span>';
+    var badges=(e.j?'<span class="badge">日本</span>':'')+(e.n?'<span class="badge">追加</span>':'')+(e.x?'<span class="badge">関連技術</span>':'');
+    return '<article><div class="yr"><span>'+yearLabel(e.y)+'</span>'+badges+'</div><h4>'+esc(e.t)+'</h4>'+(e.c?'<div class="by">'+esc(e.c)+'</div>':'')+'<p>'+esc(e.d)+'</p><div class="tags">'+tags+'</div><a href="'+esc(e.u)+'" target="_blank" rel="noopener">'+(e.n?'出典を開く':'dataphys.org の該当ページ')+'</a></article>';
+  }).join('') || '<p class="note">当てはまる事例がありません。絞り込みを減らしてください。</p>';
+}
+
+document.getElementById('q').addEventListener('input',function(ev){ st.q=ev.target.value.trim().toLowerCase(); render(); });
+document.getElementById('fJ').addEventListener('change',function(ev){ st.jp=ev.target.checked; render(); });
+document.getElementById('fX').addEventListener('change',function(ev){ st.rel=ev.target.checked; render(); });
+document.getElementById('sort').addEventListener('change',function(ev){ st.sort=ev.target.value; renderList(); });
+document.getElementById('reset').addEventListener('click',function(){
+  st.f={m:{},s:{},k:{},p:{},v:{}}; st.era={from:-Infinity,to:Infinity,id:'all'}; st.q=''; st.jp=false; st.rel=false;
+  document.getElementById('q').value=''; document.getElementById('fJ').checked=false; document.getElementById('fX').checked=false; render();
+});
+function render(){ renderEraBtns(); renderChart(); renderXt(); renderFacets(); renderList(); }
+render();
+})();
+</script>
+</body>
+</html>

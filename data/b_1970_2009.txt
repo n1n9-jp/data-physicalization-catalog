@@ -1,0 +1,83 @@
+1970|physical-display-to-study-perception|Physical Display to Study Perception|Stuart Anstis|モーターで上下する棒の列。知覚実験用の物理ディスプレイ|ma|V|x|T|k|x
+1970|byrons-bender|Byron's Bender|Byron Rubin|針金を曲げてタンパク質の骨格模型を作る道具|m|VT|s|S|s|
+1970|moma-poll-haackes-participatory-bar-chart|MoMA Poll|Hans Haacke|来場者が透明な箱に票を入れ、賛否が積み上がる|gp|VB|c|C|p|
+1970|3d-sankey-diagram|3D Sankey Diagram|CSIS|透明シートを重ねてエネルギーの流れを示す|g|V|q|J|s|
+1973|mazamet-ville-morte|Mazamet Ville Morte||町の住民が路上に横たわり、年間の交通事故死者数と同じ規模を示した|hs|VB|q|J|p|
+1977|graphical-waterfall|Graphical Waterfall|Stephen Pevnick|制御された水滴の落下で像を描く装置|la|V|x|T|k|x
+1979|planetenweg|Planetenweg Uetliberg||太陽系を10億分の1に縮めたハイキングコース|s|VB|s|E|s|
+1979|great-polish-map-of-scotland|Great Polish Map of Scotland||コンクリートで作られたスコットランドの巨大な地形模型|cs|VB|g|M|s|
+1980|giant-global-map-data-visualizations|People on a Giant World Map|World Game Workshop|巨大な床の世界地図に100人が立ち、人口や資源の配分を体で示す|hs|VB|q|E|p|
+1984|dewdneys-analog-gadgets|Dewdney's Analog Gadgets|A. K. Dewdney|スパゲッティや紐、石けん膜で計算する思考実験の装置|ok|VT|x|E|r|x
+1985|using-the-physical-to-explain-the-virtual|Using the Physical to Explain the Virtual|Rick Becker (Bell Labs)|立体散布図などの画面表示を物理模型で説明する|p|V|q|E|s|
+1987|all-the-submarines-of-the-united-states-of-america|All the Submarines of the USA|Chris Burden|米国の潜水艦625隻を1隻ずつ厚紙の模型にして吊るす|p|V|c|A|s|
+1991|congestion-visualization|Münster Congestion Visualization|ミュンスター市|72人が自転車・車・バスで移動するときの道路の占有面積を並べて見せる|hs|V|q|J|s|
+1992|durrell-bishops-marble-answering-machine|Marble Answering Machine|Durrell Bishop|留守番電話の伝言1件がビー玉1個になって出てくる|ka|VT|c|W|k|
+1992|tactile-infographics|Tactile Infographics|American Printing House for the Blind ほか|触って読む図やグラフ、地図|p|T|q|E|s|
+1993|slumber-brainwave-weaving|Slumber|Janine Antoni|睡眠中の眼球運動の記録を、翌日ブランケットに織り込む|t|VT|p|A|p|
+1995|sdsc-telemanufacturing-facility|San Diego TeleManufacturing Facility|Mike Bailey (SDSC)|科学データを積層造形で立体にして届ける初期の拠点|d|VT|s|S|s|
+1995|cpi-cost-of-living|Loren Madsen's Early Data Sculptures|Loren Madsen|物価指数や世界人口の推移を積層した彫刻|w|V|y|A|s|
+1996|ned-kahns-wind-visualizing-facades|Ned Kahn's Wind Facades|Ned Kahn|無数の小さな板が風で揺れ、建物の壁面に風の形が現れる|ms|V|r|A|n|
+1997|level-hans-hemmerts-same-height-shoes|Level|Hans Hemmert|全員の頭の高さがそろう厚底靴。靴の厚みが身長差を示す|oh|VB|q|A|p|
+1999|jonathan-chertoks-reproductions-of-mathematical-plaster-models|Chertok's Mathematical Models|Jonathan Chertok|19世紀の数学曲面模型をCADと3Dプリントで復元|d|VT|s|E|s|
+1999|worlds-largest-solid-terrain-model|World's Largest Solid Terrain Model||1:500で作られた巨大な地形模型|cs|V|g|W|s|
+2000|a-shape-display-appears-in-a-movie|A Shape Display Appears in a Movie||映画に登場した架空のピン式立体ディスプレイ|a|V|x|T|k|x
+2000|kanban-boards|Kanban Boards||付箋を貼り替えて作業の状態を共有するボード|p|VT|c|W|r|
+2000|graph-board|Graph Boards|American Printing House for the Blind|コルク板にピンと輪ゴムでグラフを作る視覚障害者向け教材|wk|T|s|E|r|
+2002|lungs-slave-labour|Lungs, Slave Labour|YoHa (Matsuko Yokokoji, Graham Harwood)|強制労働の犠牲者の肺活量を、スピーカーから出る空気の量として示す|ea|AB|q|M|k|j
+2002|led-cubes|LED Cubes|Todd Holoubek ほか|LEDを立方格子に並べた低解像度の立体ディスプレイ|e|V|x|T|k|x
+2002|scientific-visualization-in-crystal|Bathsheba Grossman's Crystal Engravings|Bathsheba Grossman|ガラス内部にレーザーで分子や近傍の星を彫る|g|V|s|A|s|
+2003|pattern-recognition-in-a-bucket|Pattern Recognition in a Bucket|Fernando, Sojakka|水面の波紋を計算資源として音声を識別する実験|l|V|x|T|n|x
+2003|physical-space-time-cubes|Time Pieces|Marilynn Taylor|自分の日々の移動を銅線で時空間キューブにする|m|V|p|A|s|
+2003|solid-terrain-model-with-airplane-trajectory|Terrain Model with Airplane Trajectory|Solid Terrain Modeling|地形模型の上に墜落機の飛行経路を立体で示す|d|V|g|S|s|
+2003|mount-fear-east-london|Mount Fear|Abigail Reynolds|東ロンドンの暴力犯罪率を段ボールの山並みにする|p|V|g|A|s|
+2004|worry-prayer-beads|Worry (Prayer) Beads|Loren Madsen|テロによる年ごとの死者数を数珠の珠で示す|k|VT|y|A|s|
+2004|of-all-the-people-in-all-the-world-stats-with-rice|Of All the People in All the World|Stan's Cafe|米1粒を1人として、人口や犠牲者数を米の山で示す|f|VB|q|A|p|
+2004|array-of-belts-visualize-public-presence|Array of Belts|Rafael Lozano-Hemmer|吊るしたベルトが来場者の方へ向きを変える|ta|V|r|A|k|
+2004|synaptic-caguamas-visualize-cellular-automata|Synaptic Caguamas|Rafael Lozano-Hemmer|卓上のビール瓶がセルオートマトンの規則で回る|ga|V|x|A|k|x
+2004|sound-sculpture|Cylinder|Andy Huntington, Drew Allan|音の分析結果を立体に出力した初期の音の彫刻|d|VT|a|A|s|
+2004|modern-molecule-models|Scripps' Molecule Models|Scripps Research Institute|フルカラー3Dプリントの分子模型|d|VT|s|S|s|
+2004|xenovision-mark-iii-a-dynamic-solid-terrain-model|XenoVision Mark III|Xenotran|約7,000本のアクチュエータで地形を再現する動的模型|a|VT|g|W|k|
+2004|full-color-3d-printed-scientific-visualizations|Full-Color 3D-Printed SciVis|Brown University|科学的可視化の結果をフルカラーで3Dプリント|d|VT|s|S|s|
+2005|email-erosion-first-data-sculpture|Email Erosion|Ethan Ham|受信メールに応じてロボットが水を吹き、発泡材を削る|la|V|r|A|k|
+2005|molecular-jewelry|Molecular Jewellery|Raven Hanna|分子構造をかたどった装身具|m|VT|s|P|s|
+2005|time-evolving-scatterplot|Time-Evolving Scatterplot|Tim Dwyer|失業率と物価の関係の10年分を、層状の針金で立体化|m|V|y|S|s|
+2005|tactile-rubiks-cubes|Tactile Rubik's Cubes||色の代わりに触感で面を区別するルービックキューブ|g|T|x|E|r|x
+2006|clebsch-cubic-surface|Clebsch Cubic Surface|Cayetano Ramirez|数学的曲面を樹脂と繊維で作った彫刻|g|V|s|A|s|
+2006|peter-jansens-time-sculptures|Peter Jansen's Movement Sculptures|Peter Jansen|人の動きの連続を1つの立体に重ねた彫刻|d|V|x|A|s|x
+2006|roomquake-earthquake-visualization-for-the-classroom|RoomQuake|Tom Moher|教室を地震帯に見立て、震源を天井から吊るした球で記録する|ks|VB|g|E|p|
+2006|pulse-room-visualize-detected-heart-beats|Pulse Room|Rafael Lozano-Hemmer|300個の電球が来場者の心拍で明滅する|e|V|r|A|k|
+2006|nathalie-miebachs-woven-sculptures|Nathalie Miebach's Woven Sculptures|Nathalie Miebach|気象データを籠編みの技法で立体に編む|tw|V|y|A|s|
+2006|physical-bar-charts|Inverted Participatory Bar Charts|Lucy Kimbell|来場者がバッジを取るほど棒が減る、逆向きの投票グラフ|gk|VB|c|C|p|
+2007|garden-of-eden|Garden of Eden|Kiesl, Moser, Wilks|各都市の大気汚染に合わせた箱の中でレタスを育てる|gb|V|r|A|n|
+2007|wavefunction-visualize-public-presence-in-waves|Wavefunction|Rafael Lozano-Hemmer|並んだ椅子が来場者の接近に応じて波打つ|a|V|r|A|k|
+2007|variety-of-sound-sculptures|Explosion of Sound Sculptures|複数の作家|音を立体にする作品が相次いだ時期のまとめ|d|V|a|A|s|
+2007|city-populations|Global Cities|Richard Burdett ほか|12都市の人口を合板の立体として比較する|w|V|g|J|s|
+2007|wable-visualize-web-behavior-as-a-physical-bar-chart|Wable|Physical Interaction Lab|ウェブ上の活動量で棒が上下するテーブル|a|V|r|P|k|
+2008|idea-of-a-tree|The Idea of a Tree|mischer'traxler|日照の強さで動く装置が、1日かけて1つの物を作る|ta|VT|r|A|n|
+2008|diary-of-happiness|Diary of Happiness|Jean-Michel Othoniel|ガラス珠のそろばんで1年の日々を記録する|g|VT|p|A|r|
+2008|100-city|100% City|Rimini Protokoll|市の統計を代表する100人が舞台に立ち、質問ごとに並び替わる|h|VB|q|A|p|
+2008|psychogeographical-mapping-travel-logging-with-lego-bricks|Travel Logging with LEGO|Cory Imig|訪れた場所を曜日別にレゴで積む|x|VT|p|P|p|
+2008|bug-tracking-with-lego-bricks|Bug Tracking with LEGO|懸田剛|ソフトウェアの不具合の状態をレゴで管理する|x|VT|c|W|r|j
+2008|activity-logging-with-lego-bricks|Activity Logging with LEGO|Michael Hunger|案件ごとの作業時間をレゴの塔で記録する|x|VT|p|W|p|
+2008|rearrangeable-wooden-model-of-3d-mri-data|Wooden Model of Brain Scan|Neil Fraser|脳のMRI断面を60個の木片に貼り、組み替えて見る|w|VT|s|P|r|
+2008|bmw-kinetic-sculpture|BMW Kinetic Sculpture|ART+COM|714個の金属球が上下して形を描く|ma|V|x|A|k|x
+2008|andreas-fischers-data-sculptures|Andreas Fischer's Data Sculptures|Andreas Nicolas Fischer|GDPや通話量などを立体にする|d|V|q|A|s|
+2008|joshua-callaghans-physical-charts|Joshua Callaghan's Physical Charts|Joshua Callaghan|平面のグラフを押し出して彫刻にする|o|V|q|A|s|
+2008|justin-stewarts-data-sculptures|Justin Stewart's Data Sculptures|R. Justin Stewart|グラフや時系列を空間に展開した立体|o|V|n|A|s|
+2008|scientific-visualization-in-crystal-2|Scientific Visualization in Crystal|Paul Bourke|科学データをガラス内部にレーザーで彫る|g|V|s|S|s|
+2008|harry-potters-social-network|Harry Potter's Social Network|Aviz|子どもが磁石と輪ゴムで登場人物の関係図を作る|k|VT|n|E|r|
+2009|how-much-sugar-do-you-consume|How Much Sugar Do You Consume?||飲食物に含まれる砂糖を角砂糖の山で示す|f|V|q|J|s|
+2009|federal-budget-explained-with-10000-pennies|Federal Budget with 10,000 Pennies|Political Math|1万枚の硬貨で米国の予算規模を説明する|k|V|q|J|r|
+2009|windcuts-wind-travels-captured-on-wood|Windcuts|Miska Knapek|ヘルシンキの5日間の風向・風速・気温を木に削る|wd|VT|y|A|s|
+2009|single-datapoint-physical-visualizations|Marcovici's Single-Datum Visualizations|Michael Marcovici|10億ドルや一生分の時間といった1つの量を実物で示す|ok|V|q|A|s|
+2009|daniel-leithingers-interactive-shape-displays|Leithinger's Shape Displays|Daniel Leithinger ほか (MIT)|電動ピンの列で形や地形を表示し、手で操作できる|a|VT|g|T|k|
+2009|weather-bracelet-and-measuring-cup|Whitelaw's Weather Sculptures|Mitchell Whitelaw|1年の天気を腕輪に、月別気温を計量カップにする|d|VT|y|P|s|
+2009|centograph-dynamic-bar-charts-show-keyword-popularity|Centograph|Tinker London|ニュースでのキーワード出現数で10本の棒が動く|a|V|r|J|k|
+2009|distribution-plushies|Distribution Plushies||確率分布の形をしたぬいぐるみ|t|VT|s|E|s|
+2009|displaying-data-through-animated-sails|DataMorphose|Christiane Keller|室内の帆がデータの流れに応じて動く|ta|V|r|A|k|
+2009|irregular-cake-mold|S-XL Cake|Ding 3000|切り分けの大きさが不均等になるケーキ型|m|V|x|A|s|x
+2009|nadeem-haidarys-tableware|In-Formed|Nadeem Haidary|国別のカロリー摂取量を形にした食器|m|VT|q|A|s|
+2009|iohanna-panis-tableware|Form Follows Data|Iohanna Pani|個人の統計を形にした食器|c|VT|p|P|s|
+2009|poly-physical-bar-chart-showing-online-poll-data|Poly|Digit London|オンライン投票の結果で棒が動く|a|V|r|C|k|
+2009|pulse-showing-emotional-responses-on-the-web|Pulse|Markus Kison|ブログに現れる感情語に応じて形を変える立体|a|V|r|A|k|
+2009|virtual-gravity-giving-physical-weight-to-virtual-data|Virtual Gravity|Silke Hilsing|検索語の人気を、はかりに載せる重さとして比べる|ma|VT|q|A|k|

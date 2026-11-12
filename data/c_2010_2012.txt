@@ -1,0 +1,62 @@
+2010|coal-fired-computers|Coal Fired Computers|YoHa (Matsuko Yokokoji, Graham Harwood)|石炭で動かす計算機と膨らむ肺で、炭鉱労働者の肺疾患の記録を示す|ab|VA|q|M|k|j
+2010|analog-stepless-gear-indicator|Analog Stepless Gear Indicator|NuVinci|無段変速の変速比をアナログな図で示す自転車の表示器|g|V|r|W|k|
+2010|and-counting-tattoo-of-war-casualties|...and Counting|Wafaa Bilal|戦争の死者1人を1つの点として背中に入れ墨する|h|VB|c|M|p|
+2010|computer-glitches-as-3d-objects|Computer Glitches as 3D Objects|Tracy Cornish|画像の乱れを立体にして出力する|d|V|x|A|s|x
+2010|cookbook-arranges-ingredients-into-physical-visualizations|IKEA Cookbook|IKEA|材料を分量どおりに並べて撮ったレシピ本|f|V|q|A|s|
+2010|retweet-ripples|Retweet Ripples|Karsten Schmidt|ツイートの広がりを地形のような面にして3Dプリント|d|V|n|A|s|
+2010|quipu-of-the-periodic-table|Quipu of the Periodic Table|J. A. Gutiérrez Samanez|周期表を結縄の形式で表す|t|VT|s|E|s|
+2010|dust-serenade-sound-waves-materialized|Dust Serenade||管の中の粉が音波の形を描く|gk|VA|a|A|n|
+2010|data-sculptures-in-class|Data Sculptures in Class|Andrew Vande Moere の学生|授業で学生がデータ彫刻を作る実践|o|VT|q|E|s|
+2010|hans-rosling-adopts-physical-visualizations|Hans Rosling's Physical Visualizations|Hans Rosling|箱や小石、トイレットペーパーで人口や所得を語る|ok|V|q|E|r|
+2010|thematic-maps-of-germany|Thematic Maps of Germany|Wolf-Dieter Rase|地価や失業率を3Dプリントの主題図にする|d|VT|g|S|s|
+2010|shanghai-spheres|Shanghai Spheres|ADK, ムラヤマ ほか|1,008個の球が上下して形を描く|ma|V|x|A|k|xj
+2010|headspace-array-of-actuated-bars|Headspace|Geoffrey Drake-Brockman|256本の電動の棒が子どもたちの顔の形を再現する|a|V|x|A|k|x
+2010|ecloud-airfield-ambient-airport-visualizations|eCLOUD & airFIELD|Goods, Hafermaas, Koblin|空港に吊るした液晶片が天気や航空交通に応じて変わる|e|V|r|A|k|
+2010|brain-slices|Limbique|Paulsen, Yoldas|脳の断面を物として並べる|o|V|s|A|s|
+2010|gundega-strautmanes-relational-ornaments|Relational Ornaments|Gundega Strautmane|ネットワーク図をピンと糸の布作品にする|t|VT|n|A|s|
+2010|bar-chart-to-visualize-ones-finances|Dynamic Bar Chart of One's Finances|Hampus Edström|自分の家計の状況で棒が動く|a|V|p|P|k|
+2010|keyboard-frequency-sculpture|Keyboard Frequency Sculpture|Michael Knuepfel|キーの高さで文字の使用頻度を示すキーボード|g|VT|q|A|s|
+2011|digital-arab-spring|Digital Arab Spring|René Rieger|アラブの春のツイッター上のつながりを手作りの造形で示す|o|V|n|J|s|
+2011|ursus-wehrlis-art-of-clean-up|The Art of Clean Up|Ursus Wehrli|身の回りの物を種類別に整列させて撮る|o|V|x|A|r|x
+2011|sleep-patterns|Sleep Patterns|Laurie Frick|1か月の睡眠記録を切り紙と彩色のコラージュにする|p|V|p|A|s|
+2011|blip-a-year-of-travel|Blip|Cemre Güngör|1年間の飛行記録を木の立体にする|w|V|p|P|s|
+2011|manually-animated-graph-of-scientific-data|Manually-Animated Graph|Bradley Litwin|ハンドルを回すとカムが動き、4つの指標の推移を再生する|ma|VT|y|E|k|
+2011|jose-duartes-handmade-visualization-toolkit|Handmade Visualization Toolkit|Jose Duarte|風船やテープなど身近な材料で図表を作る道具一式|ok|VT|q|E|r|
+2011|barrass-physical-data-sonifications|Physical Data Sonifications|Stephen Barrass|血圧の記録を形にした鳴り物。鳴らすとデータが音になる|md|TA|p|A|s|
+2011|tape-recorders-measure-time-instead-of-distance|Tape Recorders|Rafael Lozano-Hemmer|巻尺が来場者の滞在時間だけ伸びていく|ma|V|r|A|k|
+2011|warning-real-time-global-air-quality-display|Warning|Rodrigo Medeiros|30都市の大気の状態を光で示す|e|V|r|J|k|
+2011|data-furniture|Adrien Segal's Data Furniture|Adrien Segal|水の使用量や積雪量の推移を家具の形にする|w|VT|y|A|s|
+2011|laser-cut-time-series|Laser-Cut Time Series|Miska Knapek|ヘルシンキの1年の気温をレーザー加工の板に並べる|wd|V|y|A|s|
+2011|tele-present-water-and-underwater-sea-wave-replication|Sea Wave Replicators|David Bowen|遠く離れた海の波の動きを、モーターと格子で再現する|a|V|r|A|k|
+2011|data-driven-toy|DataCoaster|Bobby Genalo|データから作った曲線を、待合室のおもちゃの形にする|mw|VT|q|A|r|
+2011|domestic-water-usage-visualized-with-sponges|Can We Keep Up|Hal Watts|都市ごとの生活用水の量をスポンジで示す|ol|VT|q|J|s|
+2011|united-states-electoral-vote-map|DIY Electoral Vote Map||州ごとの選挙人数を高さにした3Dプリント地図|d|VT|g|J|s|
+2011|paper-models-of-3d-plots|Paper Models of 3D Plots|Paul DeMarco|立体グラフを紙の断面の組み合わせで作る|p|VT|s|E|s|
+2011|seismographic-readings|Tōhoku Japanese Earthquake Sculpture|Luke Jerram|東北地方太平洋沖地震の9分間の地震計の記録を立体にする|d|V|y|M|s|j
+2011|from-over-here|From Over Here|Paul May|アイルランドに関する記事の年次推移を刻んだカード|pd|VT|y|A|s|
+2011|lego-prism-maps|LEGO Prism Maps|Samuel Granados|アメリカ大陸の移民数をレゴで積んだ地図|x|V|g|J|s|
+2012|a-soft-and-transparent-handleable-protein-model|Soft Transparent Protein Model|川上勝|透明なシリコーンで作った、手で扱えるタンパク質模型|gd|VT|s|S|s|j
+2012|stop-and-frisk-physical-data-filtering|Stop & Frisk|Catalina Cortázar|職務質問の件数を、区画に分かれて落ちる粉の量で人種別に示す|ok|V|q|J|k|
+2012|what-made-me-interactive-public-installation|What Made Me|Grabkowska, Kolec|来場者が色糸を掛けて5つの問いに答える|t|VB|c|C|p|
+2012|point-cloud-dynamic-weather-sculpture|Point Cloud|James Leng|天気の情報で形を変える針金の構造体|ma|V|r|A|k|
+2012|bit-planner-lego-calendar|Bit Planner|Vitamins|半日を1個としてレゴで組む壁掛けの予定表|x|VT|c|W|r|
+2012|poland-budget-presented-with-lego-bricks|Poland Budget with LEGO||ポーランドの予算配分をレゴの面グラフにする|x|V|q|J|s|
+2012|pulse-tangible-line-graph|Pulse: Tangible Line Graph|McTaggert, Ferrara|6つのモーターが紐を引いて折れ線を作る|ta|V|r|P|k|
+2012|google-eye-radial-visualization-of-page-visits|Google Eye|Andrej Boleslavský|1年分のページ閲覧数を輪の形にする|d|V|y|P|s|
+2012|grand-old-party-political-satire|Grand Old Party|Matthew Epler|政治家の支持率などから形を作った風刺的な立体|dg|VT|y|A|s|
+2012|data-cuisine|Data Cuisine|Moritz Stefaner, prozessagenten|地域の統計を料理の味や盛り付けに置き換える|f|VG|q|C|s|
+2012|slime-mold-imitates-the-united-states-interstate-system|Slime Mold Imitates the Interstates|Adamatzky, Ilachinski|都市の位置に餌を置くと、粘菌が道路網に似た経路を作る|b|V|n|S|n|
+2012|pulse-drip-visualize-heartbeats-with-a-water-hose|Pulse Drip|Rafael Lozano-Hemmer|握ったホースから心拍に合わせて水が出る|la|VT|r|A|k|
+2012|chaotic-flow-abstract-flow-visualization-of-copenhagen-bike-traffic|Chaotic Flow|Illutron|コペンハーゲンの自転車通行量を管の中の水と空気で示す|la|V|r|A|k|
+2012|large-scale-drone-swarm|Large-Scale Drone Swarm|Ars Electronica Futurelab|49機のドローンによる編隊飛行の実演|ea|V|x|T|k|x
+2012|dynamic-network-sculpture|Dynamic Network Sculpture|Windhager, Mayr ほか|文化遺産データを時空間キューブの立体にする|o|V|n|S|s|
+2012|rearrangeable-3d-bar-chart|Rearrangeable 3D Bar Chart|Jansen, Dragicevic|部品を取り外して並べ替えられる立体棒グラフ|gd|VT|q|S|r|
+2012|testing-physical-visualizations|Putting Physical Visualizations to the Test|Jansen, Dragicevic, Fekete|物理の棒グラフと画面表示を比べた最初期の実証研究|gd|VT|q|S|s|
+2012|matthijs-klips-data-sculptures|Matthijs Klip's Data Sculptures|Matthijs Klip|オランダの年齢別の平均余命を棒の彫刻にする|o|V|q|A|s|
+2012|parm-static-terrain-models-with-projection|PARM|Univ. of Nottingham|地形模型の上に情報を投影して重ねる|de|V|g|S|k|
+2012|data-jewelry|Meshu|Meshu.io|訪れた都市を結んだ網目を注文制の装身具にする|md|VT|p|P|s|
+2012|thesis-lego-board|Thesis LEGO Board|Daniel K. Schneider|論文の進み具合をレゴの板で管理する|x|VT|c|W|r|
+2012|steel-feynman-diagrams|All Possible Photons|Edward Tufte|ファインマン図をステンレスの彫刻にする|m|V|x|A|s|x
+2012|emoto-projection-augmented-heatmaps-of-twitter-data|Emoto|Stefaner, Hemment, Studio NAND|五輪期間のツイートの推移を17個の立体と投影で示す|de|V|y|A|s|
+2012|hypermatrix-animated-matrix-walls|Hypermatrix|Jonpasang|壁一面の立方体がモーターで出入りして模様を作る|a|V|x|A|k|x
+2012|general-motors-3d-lego-visualizations|GM's LEGO Visualizations|General Motors|業務上の数値をレゴで立体化して共有する|x|VT|q|W|r|

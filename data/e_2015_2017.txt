@@ -1,0 +1,67 @@
+2015|climate-datascapes|Climate Datascapes|Tali Weinberg|気候データを織物の色と構造にする|t|VT|y|A|s|
+2015|spheres-of-risk|Spheres of Risk|Rokotyan, Scileppi|リスク意識の調査結果を磁器の球で示す|c|VT|q|A|s|
+2015|quantum-of-peace-numerical-display-made-with-bullets|Quantum of Peace||薬莢を並べた表示器で、戦争に関する数字を示す|ma|V|q|M|k|
+2015|rearrangeable-physical-map|Rearrangeable Physical Map|Andrew Chard|層を外して都市の構造を比べられる木の地図|w|VT|g|E|r|
+2015|wage-islands|Wage Islands|Ekene Ijeoma|賃金水準ごとに住める地域を、水に沈む地形模型で示す|gl|V|g|J|k|
+2015|life-in-clay-sharing-memories-through-data-pottery|Life in Clay|Alice Thudt|通話履歴などの個人の記録を陶器の模様にする|c|VT|p|P|s|
+2015|u-s-unemployment-rate-1948-2015|U.S. Unemployment Rate 1948–2015|Jon Keegan|月次の失業率の推移を3Dプリントの図にする|d|VT|y|J|s|
+2015|summer-in-the-city|Summer in the City|Carola Bartsch|ルガーノのひと夏の大気・天気・交通を、針金に通した板で示す|dm|V|y|A|s|
+2015|dataseeds-flying-data|Dataseeds|Dulake, Gwilt|高齢者の転倒データを、落とすと舞う種の形で示す|d|VT|q|J|k|
+2015|participatory-representation-of-happiness|Participatory Representation of Happiness|Stefan Sagmeister|来場者が幸福度に応じた筒からガムを取り、減り方が分布になる|k|VB|c|C|p|
+2015|jller-a-robot-rearranges-pebbles-by-geologic-age|Jller|Maus, Bartoníček|川の小石をロボットが地質年代順に並べ直す|ca|V|s|A|k|
+2015|create-your-own-sound-sculpture|Create Your Own Sound Sculpture||音の波形を立体曲線にして3Dプリントする手順|d|V|a|E|s|
+2015|inequalities-quipu|Inequalities Quipu|Ewa Tuteja|暮らしの指標の地域差を結縄の形式で示す|t|VT|q|A|s|
+2015|lake-brite-ecological-data-on-a-led-cube|Lake Brite|ECHO Leahy Center|湖の水温などを7,500個のLEDの立体表示で示す|e|V|g|E|k|
+2015|passim-visual-reconceptualisation-of-spatial-theories|Passim|Paul Heinicker|紛争データを立体物と投影で示す|de|V|g|A|k|
+2015|u-s-cost-of-political-campaigns|U.S. Cost of Political Campaigns|The New York Times|大口献金の規模をボードゲームの駒の山で示す|k|V|q|J|s|
+2015|canadian-federal-election-first-past-the-post-vs-proportion-representation|Canadian Election with LEGO|Dave Meslin|小選挙区制と比例代表制の議席の違いをレゴで比べる|x|V|q|J|r|
+2015|kohei-nakajimas-computing-tentacle|Computing Tentacle|中嶋浩平 ほか|柔らかいシリコーンの腕の動きを計算に使う実験|ga|V|x|T|k|xj
+2015|dan-gilberts-tv-ads|Dan Gilbert's TV Ads|Prudential|通行人がリボンや磁石で回答し、分布ができあがる屋外実験|ks|VB|c|C|p|
+2015|beeswax-maps-crafted-by-bees|Beeswax Maps|Ren Ri|ミツバチに蜜蝋で地図の形を作らせる|b|V|g|A|n|
+2015|3d-paper-model-of-shrinking-aral-sea|Paper Model of Shrinking Aral Sea|Peter Vojtek|アラル海の湖岸線の後退を紙の層で示す|p|VT|g|J|s|
+2015|multivariate-beer|Multivariate Beer|Nathan Yau|郡の人口統計を原料の配合に置き換えたビール|f|G|q|A|s|
+2015|london-eye-chart-a-135m-tall-pie-chart|London Eye Chart|Bompas & Parr, Facebook|観覧車の照明を、政党別の話題量を示すドーナツ図にする|es|V|q|J|k|
+2015|physical-weather-display|Tempescope|河本健|箱の中に雨や霧、光を起こして天気予報を示す|gle|V|r|P|k|j
+2015|paper-cut-terrain-models|Paper Cut Terrain Models||等高線ごとに切った紙を重ねる地形模型|p|VT|g|E|s|
+2015|interregional-merchandise-trade|Interregional Merchandise Trade|Volker Schweisfurth|地域間の貿易の流れを3Dプリントの立体にする|d|V|n|A|s|
+2015|sicherheit-switzerlands-money-in-bar-charts|Sicherheit||スイスの収入・支出・債務を実物の棒グラフで示す|o|V|q|E|s|
+2015|touching-air-necklace-shows-air-pollution|Touching Air|Posavec, Quick|1週間の大気汚染の濃度を首飾りの形にする|o|VT|y|A|s|
+2015|solid-model-of-stellar-winds|Solid Model of Stellar Winds|Madura ほか|恒星風のシミュレーション結果を3Dプリント|d|VT|s|S|s|
+2015|data-necklace-of-good-night-sms|Data Necklace of Good Night SMS|Paul Heinicker|2年分のおやすみメッセージを鋼の首飾りにする|md|VT|p|P|s|
+2015|physical-customer-satisfaction-survey|Physical Customer Satisfaction Survey|Antell|客が玉を入れて満足度を答える棒グラフ|k|VB|c|C|p|
+2016|david-schneider-datasculptures|David Schneider's Data Sculptures|David Schneider|感染と回復の経過を金属や木、ガラスの彫刻にする|mwg|V|s|S|s|
+2016|duo-tornado-vase|Duo Tornado Vase|Yisha Cai|雨のセンサー記録から形を作った磁器とガラスの花器|cg|V|y|A|s|
+2016|wait-for-the-oil-drop|Wait for the Oil Drop!||石油の産出量をガラス管を使った機械仕掛けで示す展示|ga|V|q|E|k|
+2016|woven-chronicles|Woven Chronicles|Reena Saini Kallat|国境を越える人の移動を電線で描いた世界地図|t|VA|g|A|s|
+2016|accomplishments|Accomplishments|Michelle Sylvestre|日々の達成を手縫いの球にして服に付けていく|t|VB|p|P|p|
+2016|topographic-jewelry|Topographic Jewelry|Courtney Reckord|地形データをかたどった装身具|m|VT|g|P|s|
+2016|thoughtforms-3d-printed-thoughts|Thoughtforms|Geurts, Hwang|記憶を思い出しているときの脳波を3Dプリント|d|V|p|A|s|
+2016|walkable-collaboration-network|Walkable Collaboration Network|Dario Rodighiero|研究室間の関係図を15m四方の床に印刷し、上を歩く|s|VB|n|S|s|
+2016|cairn-situated-data-collection-and-analysis-for-fab-labs|Cairn|Gourlet, Dassé|工房の利用者が木のタイルを積んで活動を記録する|w|VT|c|C|p|
+2016|dataponics-human-vegetal-play|Dataponics|Cercos ほか|人の運動量と植物の世話を結びつける仕組み|ba|VA|p|P|n|
+2016|housing-prices-ripping-san-francisco-apart|Housing Prices Ripping SF Apart|Doug McCune|住宅価格の差で裂けたように見える都市の立体地図|d|V|g|A|s|
+2016|actuated-prism-map-of-italy|Actuated Prism Map of Italy|Alessandro Masserdotti|州ごとの値で柱が上下するイタリア地図|da|V|g|E|k|
+2016|fizviz-a-wall-mounted-data-gauge|FizViz|iot design shop|好きな数値を針で示す壁掛けの計器|a|V|r|P|k|
+2016|motus-forma-peoples-motions-in-a-shared-space|Motus Forma|Allen, Smith|ロビーでの10時間分の人の動線を重ねた彫刻|d|V|g|A|s|
+2016|turning-weight-into-scale|Turning Weight into Scale|Chang Hee Lee|載せた重さが、ガラスに挟んだ液体の広がりとして見える|gl|V|r|A|n|
+2016|central-park-nyc-temperatures|Central Park NYC Temperatures||1869年以降の月平均気温を3Dプリントの図にする|d|VT|y|E|s|
+2016|podium-physical-competition-monitor|Podium|iSketchLab, TrackMaven|競合各社のSNSでの成績を示すネット接続の置物|a|V|r|W|k|
+2017|modern-dowry|Modern Dowry|Courtney Starrett|自分の負債と資産で形が決まるティーポット|md|V|p|A|s|
+2017|cnc-milled-wood-visualization-of-a-studios-energy-usage|CNC-Milled Energy Usage|Elias Pfuner|事務所の1年の電力使用量をクルミ材に削り出す|wd|VT|y|A|s|
+2017|physical-globe-visualizations|Fabricating Physical Globe Visualizations|Djavaherpour ほか|地理データを分割して3Dプリントし、地球儀に組む|d|VT|g|S|r|
+2017|yellow-dust-making-visible-and-remediating-particulate-matter-in-the-air|Yellow Dust||微粒子の濃度に応じて黄色い霧を出す装置|la|VB|r|J|k|
+2017|data-sculpture-of-latin-american-apprehensions|Latin American Apprehensions|Sadie Coughlin-Prego|国境での拘束者数をアクリルの層で示す|gd|V|y|J|s|
+2017|participatory-matrix-and-parallel-coordinates|Participatory Matrix and Parallel Coordinates|KnowAndBe.Live|来場者が答えを加えていく、がん啓発の参加型展示|t|VB|c|C|p|
+2017|popsicles-of-pollution|Popsicles of Pollution|新北市の学生|汚れた川の水を凍らせ、樹脂で固めたアイスキャンディー|lg|V|s|J|s|
+2017|gravity-wave-spectrogram-ligo|Gravity Wave Spectrogram|Louis R. Nemzer|重力波の観測信号のスペクトログラムを3Dプリント|d|VT|s|E|s|
+2017|street-debaters|Street Debaters|木原共|路上で賛否を問い、人々の意見を集める投票装置|ka|VB|c|C|p|j
+2017|green-berlin|Green Berlin|Sebastian Meier|ベルリンの緑地を木の地図と苔で示す|wdb|VT|g|A|s|
+2017|the-all-too-evident-ashtray|The All Too Evident Ashtray|meikl3D|喫煙と肺がんの推移を刻んだコンクリートの灰皿|c|VT|y|J|s|
+2017|are-you-sure-you-want-to-smoke|Are You Sure You Want to Smoke?|Giacomo Flaim|1年分にあたる4,234本の吸い殻を並べる|o|V|q|J|s|
+2017|co2-emissions-shown-with-balloons|CO2 Emissions with Balloons|Klemm, Rodriguez|20か国のCO2排出量をビーチボールで比べる|g|V|q|J|s|
+2017|animals-tracking|Animals Tracking|Noémie Duval ほか|24時間の移動の軌跡を透明な円盤に重ねる|g|V|g|E|s|
+2017|the-dataphys-project|Damião's Dataphys Project|Evandro Damião|点字と音声を備えた触れる図表|gd|TA|q|E|s|
+2017|coral-reefs|Coral Reefs|Chapalain ほか|サンゴ礁の面積と海水温の推移を立体にする|o|V|y|J|s|
+2017|wearable-self|Wearable Self|Jiyeon Kang|1年分の活動記録を装身具にする|d|VT|p|P|s|
+2017|eurogums-edible-population-pyramids|EuroGums|meikl3D|EU各国の人口ピラミッドの形をしたグミ|f|VG|q|E|s|
+2017|animal-hacks-hand-crafted-infographics|Hand-Crafted Magazine Infographics|National Geographic|紙と厚紙の立体模型を撮影して作る誌面の図解|p|V|q|J|s|

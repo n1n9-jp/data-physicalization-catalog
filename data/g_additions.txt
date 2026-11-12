@@ -1,0 +1,12 @@
+1857|https://www.lib.u-ryukyu.ac.jp/lib_uploadfile/column/h2911_jpn.pdf|藁算（わらざん）|琉球・沖縄|藁の本数と結び方で税や取引の数量を記録した結縄。1857年成立の文書に記載があり、糸満大綱引に今も形が残る|t|VT|c|R|s|jn
+1933|https://www.bousai.go.jp/kohou/kouhoubousai/r04/105/special_02.html|大津浪記念碑（姉吉）|岩手県宮古市重茂|津波が到達した場所に建てた石碑。碑の位置そのものが到達点の記録になっている|cs|VB|g|M|s|jn
+1995|https://calmtech.com/papers/designing-calm-technology|Live Wire (Dangling String)|Natalie Jeremijenko (Xerox PARC)|ネットワークの通信量に応じて、天井から下がる紐が揺れて音を立てる|ta|VA|r|W|k|n
+1998|https://travel.watch.impress.co.jp/docs/news/1212074.html|1/1000 東京都市模型|森ビル|縦15m・横24mの都市模型。2019年からは投影で情報を重ね、議論の道具にしている|ose|VB|g|W|k|jn
+2002|https://www.gov-online.go.jp/eng/publicity/book/hlj/html/201403/201403_05_jp.html|触れる地球|竹村眞一|手で回せる球体ディスプレイに気象や地震などの情報を映す。画面表示なので境界例|e|VT|r|E|k|jn
+2006|https://www.mlit.go.jp/river/press_blog/past_press/press/200607_12/060703/index.html|まるごとまちごとハザードマップ|国土交通省|洪水時の浸水の深さなどを、市街地の電柱などに標識として表示する|ms|VB|g|J|s|jn
+2011|https://www.jstage.jst.go.jp/article/tvrsj/16/3/16_KJ00007562067/_article/-char/ja/|心臓ピクニック|渡邊淳司, 川口ゆい, 坂倉杏介, 安藤英由樹|聴診器で拾った自分の鼓動が、手に持つ箱の振動として伝わる|a|TA|r|P|k|jn
+2011|https://www.cas.go.jp/jp/seisaku/kokudo_kyoujinka/h29_minkan/pdf/2146.pdf|桜ライン311|認定NPO法人 桜ライン311（陸前高田市）|津波の到達地点に桜を植え、到達線を並木として後世に残す|bs|VB|g|M|p|jn
+2011|https://www.kobe-u.ac.jp/documents/info/usr/press/press_20141121-6.pdf|「失われた街」模型復元プロジェクト|神戸大学 槻橋修研究室 ほか|津波で失われた街を1/500の白い模型で復元し、住民が色と記憶の旗を加える|gs|VB|g|M|p|jn
+2013|https://tangible.media.mit.edu/project/inform|inFORM|Leithinger, Follmer, 石井裕 ほか (MIT)|多数のピンが上下して形を作り、手で触れて操作できる立体ディスプレイ|ae|VT|x|T|k|xjn
+2014|https://current.ndl.go.jp/car/25732|地理院地図3D|国土地理院|全国の地形を3Dプリンター用データとして取得でき、誰でも立体模型にできる|d|VT|g|E|s|jn
+2015|https://seaoftime.org|時の海—東北|宮島達男|3,000人がそれぞれ速さを決めたLEDカウンターを水盤に並べる。数値の符号化ではないので境界例|el|VB|p|M|p|jn

@@ -1,0 +1,78 @@
+2018|materialism|Materialism|Studio Drift|身近な製品を素材ごとの直方体に分解して並べる|mgo|V|q|A|s|
+2018|the-20-year-gap|The 20 Year Gap|Bennett, Sleeman|健康寿命と平均寿命の差を、吊るした糸と瓶で示す|tg|V|q|J|s|
+2018|landscaper|Landscaper|Allahverdi ほか|地形模型を安価に分割プリントして組み立てる手法|d|VT|g|S|r|
+2018|harassment-plants|Harassment Plants|Luiz Morais|女性へのハラスメントの事例を、鉢に挿した棒とビーズで示す|k|V|q|J|s|
+2018|cairnform-a-physical-ring-chart-showing-renewable-energy-data|CairnFORM|Daniel, Rivière, Couture|再生可能エネルギーの予測に応じて輪が広がり、光る|ea|V|r|P|k|
+2018|traveling-datavis-game|Traveling Datavis Game|Roni Levit|移動販売車を使って路上で意見を集めるゲーム|ks|VB|c|C|p|
+2018|stretch-orchestra-marble-run|Stretch Orchestra Marble Run|Marion Lean|布のセンサーで測った体の動きをビー玉転がしにつなげる|tka|VA|r|A|k|
+2018|daydohviz-data-visualizations-made-with-play-doh|DayDohViz|Amy Cesal|粘土でさまざまな図表を作る|c|VT|q|P|s|
+2018|anthropocene-footprints|Anthropocene Footprints|West, Carpendale|カナダの温室効果ガス排出量を手作りの物で示す|o|VT|y|J|s|
+2018|solving-the-shortest-route-problem-with-a-3d-printer|Shortest Route with a 3D Printer|Christian Freksa|柔らかいネットワーク模型を引っ張ると最短経路が張る|d|VT|n|E|r|
+2018|phylogenetic-tree-with-real-specimens|Phylogenetic Tree with Real Specimens|Leo Smith|実物の魚の標本を系統樹の形に並べる|b|V|n|S|s|
+2018|living-map-precipitation-visualized-with-moss|Living Map|Sigitas Guzauskas|降水量の現在と将来予測を、水やりで育つ苔の地図で示す|b|V|g|J|n|
+2018|inequality-in-chile-represented-with-lego-bricks|Inequality in Chile with LEGO|Harry Lizama|チリの所得十分位の格差をレゴで示す|x|V|q|J|s|
+2018|the-long-run-marble-runs-convey-cost-of-health-care|The Long Run|Chambers, Papatheodorou, Wolpert|年代別の医療費を、医療器具で作ったビー玉転がしで示す|ka|VA|q|J|k|
+2018|on-brink-live-physicalization-of-the-bitcoin-blockchain|ON BRINK|Dustin Stupp|ビットコインのブロックを土の山としてコンベヤーに積む|oa|V|r|A|k|
+2018|multimaterial-printing-of-volumetric-scientific-visualizations|Multimaterial Volumetric Printing|Christoph Bader ほか|ボリュームデータを多素材のボクセル単位で3Dプリント|d|V|s|S|s|
+2018|spanish-dictionary-cemetery|Spanish Dictionary Cemetery|Marta P. Campos|100年の間に辞書から消えた語を集めた2巻の本|p|VT|c|A|s|
+2018|steven-pinker-explains-global-life-expectancy-with-physical-line-charts|Pinker's Physical Line Charts|Steven Pinker|世界の平均寿命の推移を実物の折れ線で説明する|o|V|y|E|s|
+2019|global-temperatures|Physical Globe of Temperature Change|Matthew Stewart|気温変化を3,204の部材の格子で地球儀にする|d|V|g|E|s|
+2019|climate-yarn|The 100-Year Climate Yarn|Lepore, Smith|アデレードの100年分の日最高気温をかぎ針編みにする|t|VT|y|A|s|
+2019|data-beyond-vision-physicalizing-bookshop-data|Data Beyond Vision|Koeser ほか|書店の会員記録を3Dプリント・折り紙・織りで表す|dpt|VT|y|S|s|
+2019|physical-violin-plot|Physical Violin Plot|Hunter Brown|バイオリンプロットを粘土の彫刻にする|c|V|q|E|s|
+2019|happiness-x-gdp-data-jewellery-of-country-happiness|Data Earrings of Country Happiness|Jang Lee|国の幸福度とGDPの構成を耳飾りにする|o|V|q|P|s|
+2019|perpetual-plastic|Perpetual Plastic|Klauss, Morét, Stefaner|浜で拾ったごみを並べ、プラスチックの生産量と行き先を示す|os|VB|q|J|s|
+2019|anamorphic-data-spatialization|Anamorphic Data Spatialization|Hosseini ほか|鏡を使う歪像の構造物で北米のデータを示す|os|VB|g|A|s|
+2019|physicalizing-cardiac-blood-flow-data|Physicalizing Cardiac Blood Flow|Kathleen Ang ほか|心臓の血流MRIを断面の重なりとして3Dプリント|d|VT|s|S|s|
+2019|dermal-tattoo-biosensors|Tattoo Biosensors|Yetisen ほか|体液の成分で色が変わる入れ墨型のセンサー|h|V|r|T|n|
+2019|sleep-blanket|Sleep Blanket|Seung Lee|生後1年間の子の睡眠記録を編んだ毛布|t|VT|p|P|s|
+2019|hostile-terrain-94|Hostile Terrain 94|Undocumented Migration Project|砂漠で亡くなった移民1人ごとに、手書きの札を地図に留める|ps|VB|g|M|p|
+2019|new-worry-beads-global-deaths-from-terrorism|New Worry Beads|Loren Madsen|年ごとのテロ死者数を珠の体積で示す|k|VT|y|A|s|
+2019|self-knitted-scarf-of-train-delays|Scarf of Train Delays||通勤電車の遅延を色にして編んだマフラー|t|VT|y|P|p|
+2020|doing-regression-with-a-cardboard-straw-and-strings|Regression with Cardboard and Strings|Jorge Pacheco Jara|厚紙とストローと紐で回帰直線の考え方を示す|pt|VT|q|E|r|
+2020|laina|Laina|Daphne Menheere ほか|走った経路の負荷を、形を変えるピンで示す|a|V|p|P|k|
+2020|ownership-occlusions-night-terrors-and-pernicious-doubt|Ownership|Matthew Mosher|銃の所有に伴うリスクをブロンズの彫刻にする|m|V|q|A|s|
+2020|data-badges|Data Badges|Panagiotidou, Gorucu, Vande Moere|参加者が自分の属性を部品で組んで身に着ける名札|k|VB|p|C|p|
+2020|loop|LOOP||歩数の達成度を8つの輪で示す置物|a|V|p|P|k|
+2020|the-anatomical-edutainer|The Anatomical Edutainer|Renata Raidou ほか|色フィルターで見え方が変わる解剖図と紙工作|p|VT|s|E|r|
+2020|slice-and-dice-a-physicalization-workflow-for-anatomical-edutainment|Slice and Dice|Renata Raidou ほか|医用画像を家庭のプリンターで断面模型にする手順|p|VT|s|E|r|
+2020|covid-deaths-as-nails|COVID-19 Deaths as Nails||新型コロナの死者数を、木に打った釘の数で示す|wm|V|c|M|p|
+2020|i-am-a-book-i-am-a-portal-to-the-universe|I am a Book. I am a Portal to the Universe.|Posavec, Quick|本そのものを物差しにして宇宙の数値を伝える|p|VT|q|E|s|
+2020|venous-materials|Venous Materials|Hila Mor, 中垣拳, 石井裕 ほか (MIT)|押す・曲げる力で流路の液が動き、動作が見える素材|gl|VT|r|T|n|j
+2020|econundrum|Econundrum|Sauvé, Bakker, Houben|食事の選択による炭素排出を、高さの変わる円盤で共有する|a|V|p|C|k|
+2021|soft-city|Soft City|Ugorji, Chien|土地利用や浸水域を大きなタフティングの織物にする|t|VT|g|A|s|
+2021|flood-necklace|The Flood Necklace|Anne-Laure Fréant|ロワール川の洪水の水位を陶の珠の首飾りにする|ct|VT|y|P|s|
+2021|phylogenetic-tree-with-real-plants|Phylogenetic Tree with Real Plants|ジュネーブ植物園|枝の先に生きた植物を置いた系統樹|bs|VB|n|E|s|
+2021|corn-production|Map of Corn Production with Candy Corn|Jill Hubley|米国のトウモロコシ生産量を菓子で地図にする|f|V|g|A|s|
+2021|state-of-the-world|State of the World|Mathieu Lehanneur|100か国の年齢構成を、輪を重ねた立体にする|o|V|q|A|s|
+2021|walkable-bar-chart|Walkable Bar Chart||大学の基金と市への拠出額の差を、路上の歩ける棒グラフで示す|s|VB|q|J|s|
+2021|watermap|Watermap|Daniel Fischer|砂の世界地図に、実際の降水に合わせて水が落ちる|la|V|r|A|k|
+2021|perin-class|Personal Data Physicalizations in Class|Charles Perin|学生が自分のデータを物にする授業|o|VT|p|E|s|
+2022|data-embroidery-jordan-cunliffe|Jordan Cunliffe's Data Embroidery|Jordan Cunliffe|日記や睡眠などを刺繍とビーズで記録する|tk|VT|p|P|s|
+2022|europa-2022|Europa 2022|ESAD Orléans|多言語の朗読音声を陶とガラスの立体にする|cg|V|a|A|s|
+2022|codes-in-knots|Codes in Knots|Nayeli Vega|詩や物語を結び目の符号にして、触れて読む|t|T|c|A|s|
+2022|pi-kinetic-sculpture|Kinetic Sculpture of Pi Digits|Woern, Thran|円周率の桁を回転する部材で示す|a|V|s|A|k|
+2022|meandering-river|River Meandering Through Time|Zoltán Sylvester|川の蛇行の変遷を、時間を高さにして3Dプリント|d|VT|s|S|s|
+2022|making-with-data|Making with Data: Book Cover|Huron, Nagel, Oehlberg, Willett ほか|本の各章の分量を紙の層で表した表紙|p|VT|q|A|s|
+2022|straide|STRAIDE|Engert ほか|糸で吊った要素を上下させる立体ディスプレイ|tea|V|r|T|k|
+2022|arctic-sea-ice|Physical Map of Arctic Sea Ice|NCAR ほか|40年間の海氷の減少を触れる浮き彫り地図にする|d|VT|g|E|s|
+2022|edo|Edo|Sauvé, Dragicevic, Jansen|食品のトークンを盤に置いて、食事の炭素負荷を考える|k|VT|q|C|r|
+2023|light-sculptures|Light Sculptures|Dexter Callender III|建物を移ろう光の記録をガラスに彫る|g|V|y|A|s|
+2023|planetwalker|PlanetWalker|Mengyan Guo ほか|16人の歩数をモザイクタイルで共有する|c|V|p|C|p|
+2023|a-matter-of-air|A Matter of Air|Barbier ほか|ニューヨークの大気汚染と健康の推移を42本のLEDの紐で示す|e|V|y|J|k|
+2023|sensing-network-physicalization|Sensing Network Physicalization|S. Sandra Bae ほか|触れた箇所を検知できる導電性の3Dプリントのネットワーク|de|VT|n|T|s|
+2023|weave|Weave: 3D Parallel Coordinates|K. Xing|移民が直面する障壁の調査結果を、糸で張った立体の平行座標にする|tg|V|q|J|s|
+2023|carbon-scales|Carbon Scales|Lindrup, Menon, Biørn-Hansen|食品生産の炭素排出を木のブロックで比べる|w|VT|q|C|r|
+2024|dipsea-chimes|Dipsea Chimes|Maggie Shi|レースの歴代優勝記録を、吊るした板の動く彫刻にする|oa|VA|y|A|k|
+2024|sensing-data|Sensing Data|Mark-Jan Bludau の授業|感覚に訴えるデータ表現を布で試した学生作品|t|VT|q|E|s|
+2024|eco-garden|Eco-Garden|Perera ほか|家庭の電気・ガス・食品廃棄を、木箱の円盤とLEDで示す|we|V|p|P|k|
+2024|bike-repair-stations|Bike Repair Stations as 3D Sculptures|Barriga-Abril ほか|キトの自転車利用者の経路を形にした修理スタンド|ms|VB|g|C|s|
+2024|climate-bracelet|Climate Bracelet||年ごとの気温の変化をビーズの腕輪にする|k|VT|y|P|s|
+2024|travels-on-the-wind|Travels on the Wind||旅の期間・地域・季節・手段を、流木やビーズの飾りにする|wkd|V|p|P|s|
+2024|monarch-butterfly-migration|Monarch Butterfly Migration|IDEO Chicago|オオカバマダラの個体数の推移を蝶の壁で示す|s|VB|y|J|s|
+2025|cigarette-consumption-in-germany|Cigarette Consumption in Germany|Roman Kopolovets|1人あたりのたばこ消費量の推移を紙で作る|p|V|y|J|s|
+2025|soft-data-celebration|Soft Data Celebration|Lena MK|美術館の収蔵年と作家の出身をポンポンの飾りにする|t|VT|q|A|s|
+2025|mississippi-braille-map|Mississippi Braille Map|Anne Lacambre|ミシシッピ川と都市名を白糸の刺繍で表す触れる地図|t|T|g|A|s|
+2030|physical-visualizations-of-the-future|Digitally-Fabricated Visualizations of the Future|Lee Griggs|将来の造形を想像させるCG。データには基づかない|o|V|x|T|s|x
+2033|cetonia-drone-swarm-visualizations|Cetonia|Wesley Willett|小型ドローンの群れで図を描く構想|ea|V|x|T|k|x
+2060|programmable-matter|Programmable Matter||どんな形にも変わる素材という将来構想|o|V|x|T|k|x

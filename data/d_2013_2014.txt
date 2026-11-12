@@ -1,0 +1,64 @@
+2013|sonic-sculptures|Sonic Sculptures|Blair Neal|曲の周波数分析から3Dプリント用の形を生成する|d|V|a|A|s|
+2013|solar-radiation-dowsing-rod|Solar Radiation Dowsing Rod|Hogan, Hornecker|太陽放射の強さを、手に持つ棒の振動と音で伝える|a|TA|r|E|k|
+2013|tidal-memory|Tidal Memory|Charles Sowers|毎時の潮位を、水の入ったガラス柱の列で示す|gl|V|y|A|k|
+2013|state-of-the-union|State of the Union|Nadeem Haidary|平均寿命などの指標で星条旗を作り直す|t|V|q|A|s|
+2013|pop-up-infographics|Pop-Up Infographics|Elena Turtas|持続可能性のデータを飛び出す絵本にする|p|VT|q|E|r|
+2013|temperature-afghans-and-scarves|Temperature Scarves and Afghans|編み物愛好家たち|毎日の気温を色に置き換えて1段ずつ編む|t|VT|y|P|p|
+2013|3d-spherical-visualization-with-aural-sonification|3D Spherical Visualization|Evan Atherton, LumiGeek|音楽に応じて光る3Dプリントのスピーカー|de|VA|a|A|k|
+2013|releases|Releases|HUSH|100人の声の録音から立体とポスターを生成する|d|V|a|A|s|
+2013|doug-mccunes-physical-maps|Doug McCune's Physical Maps|Doug McCune|サンフランシスコの犯罪発生率を地形のように立体化する|d|VT|g|A|s|
+2013|walkable-age-pyramid|Walkable Age Pyramid|Atelier Brückner|ドイツの年齢構成の変化を、中を歩ける立体にする|s|VB|q|E|s|
+2013|population-density-emerging-from-walls|Population Density Emerging from Walls|Hsiang, Mendis|世界の人口密度を部屋いっぱいの立体で示す|s|VB|g|E|s|
+2013|programmable-matter-stars-in-a-movie|Programmable Matter in a Movie||映画に登場する架空の粒子状ディスプレイ|o|V|x|T|k|x
+2013|punchcard-economy-data-knitting|Punchcard Economy|Sam Meech|116人の労働時間の記録を機械編みの幕にする|t|V|q|A|s|
+2013|examined-life-turning-activities-into-shape|Examined Life|Alex Getty|40日間の活動記録を色紙の折り紙にする|p|V|p|P|s|
+2013|loci-3d-printed-sculptures-of-your-flights|Loci|Andrew Spitz|自分の飛行経路を弧の立体として3Dプリント|d|VT|p|P|s|
+2013|turning-facebook-connections-into-data-sculptures|Facebook Connections as Sculptures|SOFTlab|SNS上のつながりを結晶のような立体にする|o|V|n|A|s|
+2013|a-snow-chart-of-mobility-in-science|A Snow Chart of Mobility in Science|Przemysław Biecek|研究者の移動に関する統計を雪で作った棒グラフ|l|V|q|E|n|
+2013|3d-social-networks|3D Social Networks|Jeff Hemsley|ソーシャルメディアのネットワークを3Dプリント|d|VT|n|S|s|
+2013|motion-structures-videos-as-space-time-objects|Motion Structures|Everardo Reyes-García|5秒間の映像を時空間の立体として出力する|d|V|x|A|s|x
+2013|flip-books-rather-than-movies|Flip Books Rather Than Movies|Jessica Polka|科学データの動画をパラパラ漫画にして配る|p|VT|s|S|r|
+2013|data-sculpture-of-chicken-inbreeding|Chicken Inbreeding Sculpture|Ryo Sakai, Jan Aerts|ニワトリの染色体の多様性を輪の彫刻にする|o|V|s|S|s|
+2013|pneumatic-charts|Pneumatic Charts|Hive Big Data Think Tank|送風で浮くピンポン球の高さで都市の指標を示す|ka|V|q|E|k|
+2013|very-pointy-elevation-map|Very Pointy Elevation Map|DataAppeal|トロント圏の交通量を尖った山として3Dプリント|d|V|g|A|s|
+2013|robot-arranges-8000-nails-into-a-data-sculpture-of-the-wind|8,000 Nails Wind Sculpture|Charles Aweida|風のシミュレーションを、ロボットが打つ8,000本の釘で表す|ma|V|s|A|s|
+2013|behavioral-landscapes|Behavioral Landscapes|Penn State Studio Lab|行動や感情の分布を切削した地形として示す|d|VT|q|S|s|
+2013|line-charts-of-cortisol-levels|Line Charts of Cortisol Levels|Nilam Ram|34人のコルチゾール値の変化を立体の折れ線にする|o|V|y|S|s|
+2013|quickly-authoring-physical-visualizations|Quickly Authoring Physical Visualizations|Rahul Bhargava|身近な材料で素早く図を作るワークショップ|ok|VT|q|E|r|
+2013|sweatatoms-physical-activity-sculptures|SweatAtoms|Rohit Ashok Khot|運動の記録を3Dプリントの小物にする|d|VT|p|P|s|
+2013|network-of-the-german-civil-code|Network of the German Civil Code|Oliver Bieh-Zimmert|民法の条文間の参照関係を、部屋に張った赤い糸で示す|ts|VB|n|A|s|
+2013|season-in-review-baseball-stats|Season in Review|Teehan+Lax|野球のシーズン成績をアクリルの図表にする|g|V|q|A|s|
+2013|layered-2d-plots|Layered 2D Plots|Simon Stusak|国別エネルギー源の推移をアクリル板に刻んで重ねる|gd|V|y|S|r|
+2013|nyc-high-school-dropouts|NYC High School Dropouts|Kauffman, Brenner|学校ごとの中退者数を、立体地図の上の糸とビーズで示す|dtk|V|g|J|s|
+2013|solid-statistics|Solid Statistics|Volker Schweisfurth|企業や国の指標を多色3Dプリントの立体図にする|d|V|q|A|s|
+2014|3d-interest-rate-surface|3D Interest Rate Surface|Richard Brath|カナダの利回りの推移を、光を仕込んだ立体面にする|de|V|y|S|s|
+2014|a-data-sculpture-in-the-white-house|Data Sculpture in the White House|Gilles Azzaro|大統領演説の声を立体にした彫刻|d|VA|a|A|s|
+2014|weatherwindow|WeatherWindow|Tim Dye|天気予報を窓枠型の木とLEDで示す|we|V|r|P|k|
+2014|mount-saint-helens-pre-and-post-eruption|Mount Saint Helens Pre and Post|Thompson, Vestergaard|1980年の噴火前後の地形を2つの3Dプリントで比べる|d|VT|g|E|s|
+2014|lego-senate|Lego Senate|Lance Ulanoff|米国上院の議席配分をレゴで示す|x|V|q|J|s|
+2014|display-of-ice-data|Rearrangeable Display of Ice Data|Jacubasch, Weda|海氷の推移を、布の上で並べ替えられる384の木片で示す|wd|VT|y|E|r|
+2014|sound-bites|Sound Bites|van Melle, Marks|4日分の環境音の形をチョコレートにする|f|VG|a|A|s|
+2014|good-vs-evil|#Good vs. #Evil|Patrick Keller (ECAL)|2つのハッシュタグの投稿に応じて2台のおもちゃの車が進む|a|V|r|A|k|
+2014|made-by-numbers|Made By Numbers|HUSH|会社の1年の数字を、光と音を伴う彫刻にする|oe|VA|q|A|k|
+2014|x-pose-a-wearable-dynamic-data-sculpture|x.pose|Chen, Oliveira|着ている人の位置情報に応じて表示が変わる服|te|VB|p|A|k|
+2014|jewellery-shaped-by-dna-profile|Silver Ring Shaped by DNA Profile|Rezaeian, Donovan|着ける人のDNAプロファイルで形が決まる銀の指輪|m|VT|p|P|s|
+2014|data-storytelling-with-lego|Data Storytelling with LEGO|Brookings|税や社会移動の統計をレゴで説明する|x|V|q|J|r|
+2014|district-5-tube-charts-reveal-decline-in-violence|District 5|Loren Madsen|30年分の犯罪率を屋外の鋼管の列で示す|ms|V|y|A|s|
+2014|diy-bertin-matrix|DIY Bertin Matrix|Le Goc, Perin, Di Vozzo|ベルタンの並べ替え行列を木で自作できるようにする|wd|VT|q|S|r|
+2014|physical-visual-sedimentation|Physical Visual Sedimentation|Jennifer Payne|学生の睡眠時間をガムボールの堆積で示す|kg|V|q|E|p|
+2014|drip-by-tweet-each-vote-is-a-drop|Drip-By-Tweet|Domestic Data Streamers|投票ツイート1件ごとに試験管へ1滴落とす装置|la|V|c|C|p|
+2014|data-strings-physical-parallel-coordinates|Data Strings|Domestic Data Streamers|来場者が糸を掛けて回答し、平行座標ができあがる|t|VB|c|C|p|
+2014|data-clothing-dresses-show-air-pollution|Data Clothing|Laura Perovich|室内空気の化学物質の量を服の模様にする|t|VB|q|J|s|
+2014|tiltwatch-physical-tilt-indicator-for-shipping-goods|TiltWatch|ShockWatch|輸送中に荷物が傾いたことを球の位置で示す表示器|g|V|r|W|n|
+2014|cosmos-carbon-emission-captured-in-a-wooden-ball|Cosmos|Semiconductor|森林の1年間の炭素の出入りを直径2mの木の球に刻む|w|VT|y|A|s|
+2014|dynamic-physical-charts-to-communicate-community-data|Physical Charts for Community Data|David Sweeney (Microsoft Research)|通りの交通や投票結果を、機械式の図表で地域に示す|a|V|r|C|k|
+2014|abyss-table|Abyss Table|Duffy London|木とガラスを重ねて海の深さの断面を表すテーブル|wg|V|g|A|s|
+2014|data-crystals-conglomerated-world-stats|Data Crystals|Scott Kildall|世界の統計を立方体の集まりとして3Dプリント|d|V|g|A|s|
+2014|tower-poppies-888246-ceramic-poppies-to-commemorate-fallen-soldiers-in-ww1|888,246 Ceramic Poppies|Paul Cummins, Tom Piper|第一次大戦の英国軍戦死者1人につき、陶製のポピー1本を並べる|cs|VB|c|M|p|
+2014|pan-anthem-visualize-statistics-using-national-anthems|Pan-Anthem|Rafael Lozano-Hemmer|国歌を流すスピーカーを、統計値に応じた位置で壁に並べる|ea|VA|q|A|k|
+2014|building-visualizations-with-tokens|Building Visualizations with Tokens|Samuel Huron ほか|人がトークンを並べて図を組み立てる過程の研究|k|VT|q|S|r|
+2014|blaue-blumen-handcrafted-offline-data-visualization-of-population-density|Blaue Blumen|Ewa Tuteja|世界の人口密度を、球に刺した爪楊枝で示す|ow|VT|g|A|s|
+2014|light-painting-acceleration|Light Painting Acceleration|Jake Ingman|加速度の変化をLEDの光跡として撮影する|e|V|r|A|k|
+2014|water-works|Water Works|Scott Kildall|サンフランシスコの水道・下水網を3つの3Dプリントにする|d|V|g|A|s|
+2014|sphere-packing-visualize-composers-total-musical-production|Sphere Packing|Rafael Lozano-Hemmer|作曲家ごとの作品数に応じた、音の出る球|de|VA|q|A|s|
+2014|people-wood-data-sculpture-of-questionnaire-data|People Wood|Something & Son, Inition|アンケートの回答1件を1本の木として3Dプリント|d|V|q|A|s|

@@ -1,0 +1,78 @@
+-30000|the-very-first-sculptures|The Very First Sculptures||最古級の彫刻。物で何かを表す行為の起点として掲載されている|c|VT|x|A|s|x
+-20000|ishango-bone|Ishango Bone||刻み目が並ぶ骨。数の記録（タリー）と考えられている|o|VT|c|R|s|
+-5500|mesopotamian-clay-tokens|Mesopotamian Clay Tokens||粘土の小片で品物の数量を記録した。並べ替えて計算もできる|c|VT|c|R|r|
+-2600|peruvian-quipus|Quipus||紐の結び目と色・位置で数量を記録するアンデスの結縄|t|VT|c|R|s|
+-1600|water-clocks-2|Water Clocks||水位の変化で時間の経過を示す水時計|l|V|r|W|n|
+-500|visualizing-opinions-with-pebbles|Pebble Voting||小石を投じて票を数える古代の投票。参加型表示の原型|k|VB|c|C|p|
+-150|antikythera-mechanism|Greek Orrery (Antikythera)||歯車で天体の位置を計算して示す古代ギリシャの機械|m|V|s|S|k|
+132|houfeng-didong-yi-zhang-hengs-seismoscope|Chinese Seismoscope|張衡|地震の方向を玉の落下で示す後漢の地動儀|m|VA|r|W|k|
+200|yupana|Yupana (Inka Counting Board)||区画に粒を置いて計算するインカの計算盤|ck|VT|c|R|r|
+1200|pop-up-and-movable-books|Pop-Up and Movable Books||回転盤などの仕掛けで天文や暦を示す可動式の本|p|VT|s|E|r|
+1500|flow-visualization|Flow Visualization||煙や染料で流れそのものを見えるようにする手法|l|V|s|S|n|
+1500|plan-reliefs|Plans-Reliefs||軍事用に作られた都市・要塞の精密な立体模型|w|V|g|W|s|
+1660|galileo-thermometer|Galileo Thermometer||液中の浮き玉の浮き沈みで温度を示す|gl|V|r|W|n|
+1700|wearable-abacus-from-the-qing-dynasty|Wearable Abacus (Qing Dynasty)||指輪に仕込んだ清代の小さなそろばん|m|VT|c|R|r|
+1714|mercury-thermometer|Mercury Thermometer||水銀柱の長さで温度を示す。量を長さに写す計器の典型|gl|V|r|W|n|
+1750|physical-splines|Physical Splines||しなる定規と重りで滑らかな曲線を得る製図道具|w|VT|s|W|r|
+1750|george-adams-geometric-models|George Adams' Solid Geometry Models|George Adams|立体幾何を教えるための模型|w|VT|s|E|s|
+1753|barbeu-dubourgs-machine-chronologique|Machine Chronologique|Barbeu-Dubourg|長い年表を巻物にして箱の中で繰り出す装置|pw|VT|y|E|r|
+1787|chladni-plates|Chladni Plates|Chladni|振動する板の上で砂が節の模様を描く|mk|VA|a|S|n|
+1820|papier-mache-anatomical-models|Papier-Mâché Anatomical Models||分解できる張り子の人体解剖模型|p|VT|s|E|r|
+1839|theodore-oliviers-string-models|Théodore Olivier's String Models|Théodore Olivier|糸を張って曲面を示す、変形できる幾何模型|tm|VT|s|E|r|
+1850|merryweathers-leech-barometer|Merryweather's Leech Barometer|Merryweather|ヒルの動きで嵐を予報しようとした装置|gb|VA|r|W|n|
+1862|telluric-screw-of-de-chancourtois|Telluric Screw|De Chancourtois|元素を円筒上のらせんに並べた立体周期表の先駆|p|V|s|S|s|
+1862|marshall-islands-stick-charts|Marshall Islands Stick Charts||棒と貝でうねりと島の関係を表す航海用の海図|w|VT|g|W|s|
+1865|hofmanns-croquet-ball-models|Hofmann's Croquet Ball Models|Hofmann|クロッケーの球と棒で作った分子模型|w|VT|s|E|r|
+1866|kundts-tube|Kundt's Tube|Kundt|管の中の粉が定常波の節に集まり、音波の形を示す|gk|VA|a|S|n|
+1866|dewars-brass-strip-models|Dewar's Brass Strip Models|Dewar|真鍮片を組んで炭素の結合を示す分子模型|m|VT|s|S|r|
+1871|thermodynamic-surfaces|Thermodynamic Surfaces|Maxwell ほか|物質の熱力学的状態を曲面にした模型|c|VT|s|S|s|
+1875|robert-henry-thurstons-glyptic-models|Thurston's Glyptic Models|R. H. Thurston|合金の性質を三成分の立体模型で示す|c|VT|s|S|s|
+1875|vant-hoffs-molecular-paper-models|Van't Hoff's Paper Models|Van't Hoff|炭素原子の立体配置を示す紙の分子模型|p|VT|s|S|s|
+1876|kelvins-tide-predictor|Kelvin's Tide Predictor|Kelvin|滑車と歯車で潮位を合成して予測するアナログ計算機|m|V|y|W|k|
+1880|winogradsky-column|Winogradsky Columns|Winogradsky|泥を入れた円筒の中に微生物が層をなして現れる|gb|V|s|S|n|
+1880|plaster-models-of-mathematical-functions|Klein's Mathematical Plaster Models|Felix Klein ほか|数学的曲面を石膏で示した教育・研究用の模型|c|VT|s|E|s|
+1885|ammassalik-wooden-maps|Ammassalik Wooden Maps||海岸線を木に刻んだグリーンランドの携帯地図|w|VT|g|W|s|
+1887|mareys-movement-sculptures|Marey's Movement Sculptures|Marey|連続写真から鳥の飛翔を立体に起こした彫刻|c|V|s|S|s|
+1889|gaudis-hanging-chain-models|Gaudí's Hanging Chain Models|Gaudí|吊るした鎖と重りで構造の形を求める模型|tm|V|s|W|n|
+1890|polynesian-genealogical-instrument|Polynesian Genealogical Instrument||結び目や刻みで系譜をたどる記憶の道具|tw|VT|n|R|s|
+1893|galton-board|Galton Board|Galton|釘の間を落ちる玉が釣鐘形の分布に積もる|wk|V|q|E|n|
+1896|james-ives-mechanical-teaching-map|James Ives' Mechanical Teaching Map|James Ives|仕掛けで動く教育用の地図|wm|VT|g|E|r|
+1897|stop-motion-animation|Stop Motion Animation||物を少しずつ動かして撮る手法。物理的な図の動画化に通じる|o|V|x|A|k|x
+1898|crookes-vis-generatrix-periodic-table|Crookes' Vis Generatrix|Crookes|元素をらせん状に配した立体の周期表|w|V|s|S|s|
+1898|tallies-used-as-social-displays-on-pacific-islands|Tallies as Social Displays (Pacific)||贈与や達成の数を、物を並べて人前に示すタリー|o|V|c|C|p|
+1900|pearson-lee-height-correlation-chart|Pearson and Lee's Height Correlation Chart|Pearson, Lee|親子の身長の相関を立体の度数分布で示す|w|V|q|S|s|
+1900|browns-mathematical-surface|Crum Brown's Mathematical Surface|Crum Brown|手仕事で作った数学的曲面の模型|t|VT|s|E|s|
+1900|solid-terrain-modeling-techniques|Modern Solid Terrain Modeling||地形を立体で再現する近代的な模型技法|c|VT|g|W|s|
+1901|davenports-physical-distributions|Davenport's Physical Distributions|Davenport|実物を並べて度数分布を示す|o|V|q|S|s|
+1905|rubens-tube|Rubens Tube|Rubens|管に並ぶ炎の高さが音の定常波を示す|m|VA|a|E|n|
+1907|pin-maps|Pin Maps||地図にピンを刺して件数や位置を示す業務用の表示|pk|VT|g|W|r|
+1913|frankfurt-streetcar-load|Frankfurt Streetcar Load||路面電車の乗客量を路線上の厚みで示した立体地図|w|V|g|W|s|
+1914|solid-3d-curves-for-engineering|Solid 3D Curves for Engineering||3つの変数の関係を立体曲面にした工学用の模型|c|VT|s|W|s|
+1915|wire-models-of-factory-worker-movements|Wire Models of Worker Movements|Gilbreth|作業者の手の軌跡を針金で立体化した動作研究|m|VT|s|W|s|
+1920|yakama-time-ball|Yakama Time Ball||紐の結び目と珠で人生の出来事を記録する|t|VT|p|P|p|
+1926|karstens-tridimensional-chart|Karsten's Tridimensional Chart|Karl Karsten|期間ごとの板を重ねて時系列を立体にする方法|o|V|y|W|r|
+1930|mathematical-functions-embodied-in-ballistic-cams|Ballistic Cams||弾道計算の関数を立体カムの形に刻んだ計算部品|m|T|s|W|k|
+1933|ibms-cosmograph|IBM's Cosmograph|IBM|紙片の束で流れ図を作る業務用の図表器具|p|V|q|W|r|
+1934|haywards-moon-model|Hayward's Moon Model|Hayward|月面の地形を再現した模型|c|V|g|E|s|
+1934|fords-globe|Ford's Globe|Ford|世界の事業拠点を示す大型の地球儀|m|V|g|J|s|
+1935|electricity-power-demand|3D Visualizations of Power Consumption||日々の電力需要曲線を並べた立体模型|p|V|y|W|s|
+1939|map-of-great-britains-marine-trade|Map of Great Britain's Marine Trade||約9,000隻の船の模型で商船隊の規模と航路を示す世界地図|mg|V|g|J|s|
+1940|3d-periodic-table|Stedman's 3D Periodic Table|Stedman|立体的に組んだ周期表|w|V|s|E|s|
+1941|traffic-flow-profiles-of-the-interregional-highway-system|Traffic Flow Profiles||道路網の交通量を地図上の立体の帯で示す|w|V|g|W|s|
+1943|dymaxion-map|Dymaxion Map & Folding Globe|Buckminster Fuller|折って立体にできる世界地図|p|VT|g|E|r|
+1945|electron-density-map-and-molecular-model-of-penicillin|Penicillin Electron Density Model|Dorothy Hodgkin|ペニシリンの電子密度図と分子模型|g|V|s|S|s|
+1947|electron-density-contours|Hodgkin's Electron Density Contours|Dorothy Hodgkin|透明板に等高線を描いて重ね、分子構造を読む|g|V|s|S|s|
+1949|mississippi-river-basin-model|Mississippi River Basin Model|US Army Corps of Engineers|流域を縮小再現した屋外の水理模型|cl|VB|g|W|n|
+1949|moniac-a-hydromechanical-machine-to-teach-economics|MONIAC|Bill Phillips|水の流れで国民経済の循環を示す装置|gl|V|q|E|k|
+1951|electricity-generated-or-demanded|Electricity Generated or Demanded||電力の発電量・需要量を板の積層で示す|m|V|y|W|s|
+1951|microtiter-plates|Microtiter Plates||格子状の穴に試料を入れ、色の変化がそのまま表になる実験器具|gl|V|s|S|n|
+1953|watson-and-cricks-3d-model-of-dna|Watson and Crick's DNA Model|Watson, Crick|金属板と棒で組んだDNA二重らせんの模型|m|V|s|S|s|
+1957|uscae-bay-model|San Francisco Bay Model|US Army Corps of Engineers|湾の潮流を再現する巨大な水理模型|cl|VB|g|W|n|
+1957|proteine-visualizations|Protein Models||タンパク質の立体構造を示す初期の模型|mg|V|s|S|s|
+1960|3d-spectrogram|3D Spectrogram||音の周波数・時間・強さを立体にした模型|w|V|a|S|s|
+1961|voskhod-spacecraft-globus-imp-navigation-instrument|Globus IMP||機械仕掛けの地球儀が宇宙船の現在位置を示す航法計器|m|V|g|W|k|
+1962|lunar-models-for-preparing-moon-flight|Lunar Models for Moon Flight||月飛行の準備に使われた月面模型|c|V|g|W|s|
+1965|stop-motion-animation-of-physical-bar-charts|Stop Motion Animation of Physical 3D Map||立体地図をコマ撮りして変化を見せる|w|V|g|E|k|
+1968|grace-hopper-nanoseconds|Grace Hopper's Nanoseconds|Grace Hopper|光が1ナノ秒に進む長さの針金を配り、時間を手で実感させる|m|VT|q|E|s|
+1968|charles-csuris-numeric-milling-sculpture|Csuri's Numeric Milling Sculpture|Charles Csuri|数値制御の切削で作った初期のコンピュータ彫刻|w|VT|s|A|s|
+1968|bertins-reorderable-matrices|Bertin's Reorderable Matrices|Jacques Bertin|行と列を物理的に並べ替えて構造を探す行列|wp|VT|q|S|r|
