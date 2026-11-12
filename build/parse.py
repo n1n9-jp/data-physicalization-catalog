@@ -7,6 +7,8 @@ DYN = dict(s='静的',r='組み替えできる',k='自動で動く',p='参加で
 def main():
     here = os.path.dirname(os.path.abspath(__file__))
     out, errs, seen = [], [], set()
+    tp = os.path.join(here, '..', 'data', 'thumbs.json')
+    thumbs = json.load(open(tp, encoding='utf-8'))['thumbs'] if os.path.exists(tp) else {}
     for f in sorted(glob.glob(os.path.join(here, '..', 'data', '*.txt'))):
         for i, line in enumerate(open(f, encoding='utf-8'), 1):
             line = line.rstrip('\n')
@@ -23,7 +25,7 @@ def main():
             if url in seen: errs.append((os.path.basename(f), i, 'dup', slug))
             seen.add(url)
             out.append(dict(y=int(year), t=title, c=creator, d=ja, u=url, m=list(mat), s=list(mod), k=dat, p=use, v=dyn,
-                            x=int('x' in flags), j=int('j' in flags), n=int('n' in flags)))
+                            x=int('x' in flags), j=int('j' in flags), n=int('n' in flags), i=thumbs.get(slug, '')))
     out.sort(key=lambda e: (e['y'], e['t']))
     for e in errs: print('ERR', e)
     print('entries', len(out), 'errors', len(errs))
@@ -39,5 +41,6 @@ def main():
     yrs = C(e['y'] for e in out if 1990 <= e['y'] <= 2025)
     print('by year', sorted(yrs.items()))
     print('<=2012', sum(1 for e in data if e['y'] <= 2012), '>=2013', sum(1 for e in data if 2013 <= e['y'] <= 2025))
+    print('with thumbnail', sum(1 for e in out if e['i']), 'without', sum(1 for e in out if not e['i']))
     print('json bytes', os.path.getsize(os.path.join(here, 'data.json')))
 if __name__ == '__main__': main()

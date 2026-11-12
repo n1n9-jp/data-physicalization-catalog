@@ -87,7 +87,10 @@ label.chk{display:inline-flex;gap:6px;align-items:center;font-size:13px;cursor:p
 .count{font-size:14px;margin:0}
 .count b{font-size:22px;font-variant-numeric:tabular-nums}
 .list{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px;margin-top:14px}
-article{border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;background:var(--surface)}
+article{border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;background:var(--surface);overflow:hidden}
+article .th{display:block;flex:none;width:calc(100% + 28px);margin:-12px -14px 4px;aspect-ratio:17/10;background:var(--bg);border-bottom:1px solid var(--line);overflow:hidden}
+article .th img{width:100%;height:100%;object-fit:cover;display:block}
+article .th.none{display:flex;align-items:center;justify-content:center;color:var(--ink-3);font-size:12px;text-decoration:none}
 article .yr{font-size:12px;color:var(--ink-3);font-variant-numeric:tabular-nums;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 article h4{margin:0;font-size:15px;line-height:1.4;overflow-wrap:anywhere}
 article .by{font-size:12.5px;color:var(--ink-2);overflow-wrap:anywhere}
@@ -141,7 +144,7 @@ article a{font-size:12.5px;margin-top:auto;align-self:flex-start}
 
 <section aria-labelledby="h-list">
   <h2 id="h-list">事例を絞り込む</h2>
-  <p class="lead">同じ軸の中は「いずれか」、軸どうしは「すべて」で絞り込みます。チップの数字は、押した場合に残る件数です。</p>
+  <p class="lead">同じ軸の中は「いずれか」、軸どうしは「すべて」で絞り込みます。チップの数字は、押した場合に残る件数です。写真は dataphys.org の一覧にある画像を参照して表示しています。</p>
   <div class="toolbar">
     <input type="search" id="q" placeholder="名前・作者・説明で探す" aria-label="名前・作者・説明で探す">
     <label class="chk" for="fJ"><input type="checkbox" id="fJ"> 日本に関わる事例のみ</label>
@@ -176,7 +179,9 @@ article a{font-size:12.5px;margin-top:auto;align-self:flex-start}
       <ul>
         <li><a href="https://dataphys.org/list/gallery">List of Physical Visualizations and Related Artifacts</a>（Pierre Dragicevic, Yvonne Jansen 編）。__NLIST__件はこの一覧に基づき、各カードから該当ページに飛べます。</li>
         <li>「追加」の印がある__NADD__件は、この一覧にない事例を一次情報から加えたものです。出典は各カードのリンク先です。</li>
-        <li>説明文はすべて本カタログで書き起こしました。画像は載せていません。</li>
+        <li>説明文はすべて本カタログで書き起こしました。</li>
+        <li>写真は、この一覧のサムネイル画像を dataphys.org から読み込んで表示しています。本カタログには複製していません。写真の権利は、それぞれの作者・提供者にあります。出典は各事例の該当ページで確認できます。</li>
+        <li>もとの一覧は「CC-BY-SA」で公開され、再利用する場合は一覧ページを参照するよう求めています。</li>
       </ul>
     </div>
     <div>
@@ -381,10 +386,15 @@ function renderList(){
       e.s.map(function(m){return '<span class="tag">'+D.MOD[m].replace(/（.*）/,'')+'</span>';}).join('')+
       '<span class="tag">'+D.DYN[e.v]+'</span>';
     var badges=(e.j?'<span class="badge">日本</span>':'')+(e.n?'<span class="badge">追加</span>':'')+(e.x?'<span class="badge">関連技術</span>':'');
-    return '<article><div class="yr"><span>'+yearLabel(e.y)+'</span>'+badges+'</div><h4>'+esc(e.t)+'</h4>'+(e.c?'<div class="by">'+esc(e.c)+'</div>':'')+'<p>'+esc(e.d)+'</p><div class="tags">'+tags+'</div><a href="'+esc(e.u)+'" target="_blank" rel="noopener">'+(e.n?'出典を開く':'dataphys.org の該当ページ')+'</a></article>';
+    var th = e.i ? '<a class="th" href="'+esc(e.u)+'" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img loading="lazy" decoding="async" width="340" height="200" alt="" src="https://dataphys.org'+esc(e.i)+'"></a>' : '<div class="th none">写真はありません</div>';
+    return '<article>'+th+'<div class="yr"><span>'+yearLabel(e.y)+'</span>'+badges+'</div><h4>'+esc(e.t)+'</h4>'+(e.c?'<div class="by">'+esc(e.c)+'</div>':'')+'<p>'+esc(e.d)+'</p><div class="tags">'+tags+'</div><a href="'+esc(e.u)+'" target="_blank" rel="noopener">'+(e.n?'出典を開く':'dataphys.org の該当ページ')+'</a></article>';
   }).join('') || '<p class="note">当てはまる事例がありません。絞り込みを減らしてください。</p>';
 }
 
+document.getElementById('list').addEventListener('error',function(ev){
+  var t=ev.target; if(!t || t.tagName!=='IMG') return;
+  var a=t.closest('.th'); if(a){ a.classList.add('none'); a.textContent='写真を読み込めませんでした'; }
+},true);
 document.getElementById('q').addEventListener('input',function(ev){ st.q=ev.target.value.trim().toLowerCase(); render(); });
 document.getElementById('fJ').addEventListener('change',function(ev){ st.jp=ev.target.checked; render(); });
 document.getElementById('fX').addEventListener('change',function(ev){ st.rel=ev.target.checked; render(); });
